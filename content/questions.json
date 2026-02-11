@@ -24,7 +24,7 @@
         { "text": "Offer a strong suggestion and rally people around it", "score": 3 },
         { "text": "Just pick a place and tell everyone to meet you there", "score": 4 }
       ],
-      "factImage": { "src": "/images/facts/denture.png", "right": -140, "top": "40%", "width": "65%" },
+      "factImage": { "src": "/images/facts/denture.png", "right": -140, "top": "30%", "width": "58%" },
       "fact": "George Washington's famous wooden teeth are a myth — his dentures were actually made from hippopotamus ivory, human teeth, and metal springs.",
       "factSources": [
         { "name": "Mount Vernon", "url": "https://www.mountvernon.org/library/digitalhistory/digital-encyclopedia/article/wooden-teeth-myth" },
@@ -58,7 +58,7 @@
         { "text": "Make the big calls yourself to keep things moving fast", "score": 3 },
         { "text": "Start executing yourself and tell others exactly what to do and when", "score": 4 }
       ],
-      "factImage": { "src": "/images/facts/tophat.png", "right": -100, "top": "30%", "width": "70%" },
+      "factImage": { "src": "/images/facts/tophat.png", "right": -70, "top": "40%", "width": "62%" },
       "fact": "Abraham Lincoln kept important documents tucked inside his iconic stovepipe hat, using it as a portable filing cabinet.",
       "factSources": [
         { "name": "Smithsonian", "url": "https://www.smithsonianmag.com/history/abraham-lincolns-top-hat-the-inside-story-3764960/" },
@@ -109,6 +109,7 @@
         { "text": "Take the chance if potential reward excites you", "score": 3 },
         { "text": "Go for it — fortune favors the brave", "score": 4 }
       ],
+      "factImage": { "src": "/images/facts/bonzo.png", "right": -100, "top": "58%", "width": "60%" },
       "fact": "Ronald Reagan co-starred with a chimpanzee in the 1951 film \"Bedtime for Bonzo.\" During filming, the chimp grabbed his necktie and nearly strangled him before crew members cut him free.",
       "factSources": [
         { "name": "Mental Floss", "url": "https://www.mentalfloss.com/article/52538/time-ronald-reagan-was-nearly-strangled-chimp" },
