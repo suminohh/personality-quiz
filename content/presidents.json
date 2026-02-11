@@ -1,0 +1,105 @@
+{
+  "scoringDimensions": ["Leadership Style", "Risk Tolerance", "Social Energy", "Decision-Making", "Communication Style"],
+  "presidents": [
+    {
+      "id": "washington",
+      "name": "George Washington",
+      "years": "1789–1797",
+      "scores": [2, 2, 2, 1, 2],
+      "style": "Consensus-Driven \u2022 Measured \u2022 Private \u2022 Conviction-Based \u2022 Measured",
+      "tags": ["Principled", "Anchor", "Unifying"],
+      "quote": "Discipline is the soul of an army.",
+      "description": "You lead through quiet authority and principled consistency. Like Washington, you build consensus through patience, set high standards through personal example, and prefer deliberation over haste. You're the steady anchor in turbulent times \u2014 people follow you because they trust your character and judgment. Your consistency and integrity make you the person others turn to when things get uncertain."
+    },
+    {
+      "id": "jefferson",
+      "name": "Thomas Jefferson",
+      "years": "1801–1809",
+      "scores": [2, 3, 1, 1, 2],
+      "style": "Consensus-Driven \u2022 Bold \u2022 Private \u2022 Conviction-Based \u2022 Measured",
+      "tags": ["Intellectual", "Visionary", "Private"],
+      "quote": "I like the dreams of the future better than the history of the past.",
+      "description": "You're driven by big ideas and deep convictions. Like Jefferson, you prefer working behind the scenes \u2014 writing, building arguments, and influencing through one-on-one dialogue rather than public spectacle. You take bold positions on principle but communicate them with care and precision. Your ideas outlast your presence in the room, and you'd rather craft the perfect argument than deliver the perfect speech."
+    },
+    {
+      "id": "lincoln",
+      "name": "Abraham Lincoln",
+      "years": "1861–1865",
+      "scores": [2, 3, 2, 1, 2],
+      "style": "Consensus-Driven \u2022 Bold \u2022 Private \u2022 Conviction-Based \u2022 Measured",
+      "tags": ["Empathetic", "Resolute", "Strategic"],
+      "quote": "I walk slowly, but I never walk backward.",
+      "description": "You combine values-driven purpose with practical wisdom. Like Lincoln, you listen deeply, include opposing voices, and then speak truth simply and directly. You're willing to take bold action when principles are at stake, but you build coalitions rather than issue commands. People trust you because you mean exactly what you say \u2014 your authenticity and humility make your convictions even more powerful."
+    },
+    {
+      "id": "t-roosevelt",
+      "name": "Theodore Roosevelt",
+      "years": "1901–1909",
+      "scores": [4, 4, 4, 3, 4],
+      "style": "Directive \u2022 Bold \u2022 Public \u2022 Outcome-Driven \u2022 Unfiltered",
+      "tags": ["Fearless", "Dynamic", "Direct"],
+      "quote": "Get action. Do things; be sane; don't fritter away your time.",
+      "description": "You attack life with infectious energy and iron will. Like TR, you make decisions quickly, take big risks with confidence, and lead from the front. Your directness cuts through complexity, and your enthusiasm mobilizes everyone around you. You're willing to break norms and test boundaries because you believe momentum beats perfection. When you enter a room, things start happening."
+    },
+    {
+      "id": "fdr",
+      "name": "Franklin D. Roosevelt",
+      "years": "1933–1945",
+      "scores": [2, 4, 4, 4, 2],
+      "style": "Consensus-Driven \u2022 Bold \u2022 Public \u2022 Outcome-Based \u2022 Measured",
+      "tags": ["Charismatic", "Innovator", "Bold"],
+      "quote": "The only limit to our realization of tomorrow will be our doubts of today.",
+      "description": "You combine personal warmth with fearless experimentation. Like FDR, you're socially magnetic, willing to take massive risks, and focused relentlessly on what actually works. You build diverse coalitions through charm and connection, and you're unafraid to try bold approaches when circumstances demand it. Your optimism and flexibility turn crises into opportunities \u2014 you make people believe in possibility."
+    },
+    {
+      "id": "reagan",
+      "name": "Ronald Reagan",
+      "years": "1981–1989",
+      "scores": [3, 3, 4, 3, 2],
+      "style": "Directive \u2022 Bold \u2022 Public \u2022 Outcome-Driven \u2022 Measured",
+      "tags": ["Optimistic", "Persuasive", "Clear"],
+      "quote": "There is no limit to the amount of good you can do if you don't care who gets the credit.",
+      "description": "You lead through vision, warmth, and communication skill. Like Reagan, you're socially gifted, decisive on big issues, and able to make complex ideas feel simple and inspiring. You balance bold conviction with pragmatic deal-making, and your confidence helps you build coalitions even with skeptics. Your greatest strength is making people feel good about where you're headed."
+    },
+    {
+      "id": "clinton",
+      "name": "Bill Clinton",
+      "years": "1993–2001",
+      "scores": [2, 2, 4, 4, 2],
+      "style": "Consensus-Driven \u2022 Measured \u2022 Public \u2022 Outcome-Based \u2022 Measured",
+      "tags": ["Empathetic", "Pragmatic", "Engaging"],
+      "quote": "There is nothing wrong with America that cannot be cured by what is right with America.",
+      "description": "You thrive on human connection and excel at finding workable solutions. Like Clinton, you can make anyone feel like the most important person in the room. You're extraordinarily social, read people exceptionally well, and focus on outcomes over ideology. You build bridges between opposing camps and master the art of the possible \u2014 your empathy and adaptability make you effective in any setting."
+    },
+    {
+      "id": "bush",
+      "name": "George W. Bush",
+      "years": "2001–2009",
+      "scores": [3, 4, 3, 2, 3],
+      "style": "Directive \u2022 Bold \u2022 Public \u2022 Conviction-Based \u2022 Direct",
+      "tags": ["Decisive", "Authentic", "Loyal"],
+      "quote": "I know it's hard for you to believe, but I have not doubted.",
+      "description": "You trust your instincts and aren't afraid to make tough calls. Like Bush, you lead with clear conviction, communicate with straightforward plainness, and take bold action even when it's unpopular. You favor clarity and decisiveness over extended deliberation. You build fierce loyalty through personal warmth and directness, and you stand firm behind your decisions while valuing integrity above popularity."
+    },
+    {
+      "id": "obama",
+      "name": "Barack Obama",
+      "years": "2009–2017",
+      "scores": [2, 2, 3, 2, 1],
+      "style": "Consensus-Driven \u2022 Measured \u2022 Public \u2022 Conviction-Based \u2022 Measured",
+      "tags": ["Strategic", "Analytical", "Composed"],
+      "quote": "The best way to not feel hopeless is to get up and do something.",
+      "description": "You lead with intellectual rigor and measured temperament. Like Obama, you process complexity thoroughly, seek diverse input, and make principled decisions with care. Your calm presence commands respect, and you communicate with polish and precision. You're strategic about when to engage and prefer careful reasoning over force. Your deliberation reflects seriousness, not hesitation \u2014 you'd rather be rigorous than rushed."
+    },
+    {
+      "id": "trump",
+      "name": "Donald Trump",
+      "years": "2017–2021; inaugurated again Jan 20, 2025",
+      "scores": [4, 4, 4, 4, 4],
+      "style": "Directive \u2022 Bold \u2022 Public \u2022 Outcome-Based \u2022 Unfiltered",
+      "tags": ["Bold", "Unfiltered", "Disruptive"],
+      "quote": "I like thinking big. If you're going to be thinking anything, you might as well think big.",
+      "description": "You're a decisive force who leads personally and acts quickly. Like Trump, you take massive risks, communicate with unfiltered directness, and prefer action over extended deliberation. You challenge conventional wisdom, break through gridlock with high intensity, and prioritize results over process. Your directness is your brand \u2014 you make calls with minimal delay and aren't constrained by precedent or convention."
+    }
+  ]
+}

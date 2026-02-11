@@ -1,0 +1,213 @@
+{
+  "dimensions": [
+    "Leadership Style",
+    "Risk Tolerance",
+    "Social Energy",
+    "Decision-Making",
+    "Communication Style"
+  ],
+  "dimensionLabels": {
+    "Leadership Style": ["Collaborative", "Decisive"],
+    "Risk Tolerance": ["Cautious", "Bold"],
+    "Social Energy": ["Reserved", "Outgoing"],
+    "Decision-Making": ["Idealistic", "Pragmatic"],
+    "Communication Style": ["Diplomatic", "Direct"]
+  },
+  "questions": [
+    {
+      "id": 1,
+      "dimension": "Leadership Style",
+      "question": "When your friend group can't decide where to eat dinner, you typically:",
+      "answers": [
+        { "text": "Suggest we vote and go with majority preference", "score": 1 },
+        { "text": "Ask everyone's preferences and find a compromise", "score": 2 },
+        { "text": "Offer a strong suggestion and rally people around it", "score": 3 },
+        { "text": "Just pick a place and tell everyone to meet you there", "score": 4 }
+      ],
+      "fact": "George Washington's famous wooden teeth are a myth — his dentures were actually made from hippopotamus ivory, human teeth, and metal springs.",
+      "factSources": "Mount Vernon | Smithsonian"
+    },
+    {
+      "id": 2,
+      "dimension": "Leadership Style",
+      "question": "At work, when facing a difficult decision with your team:",
+      "answers": [
+        { "text": "Schedule a meeting to hear everyone's input first", "score": 1 },
+        { "text": "Make the call quickly based on your judgment", "score": 4 },
+        { "text": "Delegate the decision to whoever is most affected", "score": 2 },
+        { "text": "Gather opinions but ultimately trust your own instinct", "score": 3 }
+      ],
+      "fact": "Thomas Jefferson kept a pet mockingbird named Dick in his White House study that would fly around the room, perch on his shoulder, and take treats from his lips.",
+      "factSources": "Monticello | Presidential Pet Museum"
+    },
+    {
+      "id": 3,
+      "dimension": "Leadership Style",
+      "question": "When leading a project with a tight deadline:",
+      "answers": [
+        { "text": "Break into tasks and let team members own their pieces", "score": 2 },
+        { "text": "Take charge and direct everyone's specific actions", "score": 4 },
+        { "text": "Set clear goals and let people find their own path", "score": 1 },
+        { "text": "Make quick calls without much discussion to save time", "score": 3 }
+      ],
+      "fact": "Abraham Lincoln kept important documents tucked inside his iconic stovepipe hat, using it as a portable filing cabinet.",
+      "factSources": "Smithsonian | Abraham Lincoln Online"
+    },
+    {
+      "id": 4,
+      "dimension": "Risk Tolerance",
+      "question": "When considering a major life change (new job, moving cities):",
+      "answers": [
+        { "text": "Research extensively and make pro/con lists for months", "score": 1 },
+        { "text": "Trust your gut and jump in if it feels right", "score": 4 },
+        { "text": "Test the waters first with small steps", "score": 2 },
+        { "text": "Go all-in once you've made up your mind", "score": 3 }
+      ],
+      "fact": "Theodore Roosevelt went completely blind in his left eye after a boxing match in the White House, but kept it secret from the public for years.",
+      "factSources": "Constitution Center | American Academy of Ophthalmology"
+    },
+    {
+      "id": 5,
+      "dimension": "Risk Tolerance",
+      "question": "Your approach to trying new experiences:",
+      "answers": [
+        { "text": "Prefer familiar activities you know you'll enjoy", "score": 1 },
+        { "text": "Always excited to try something you've never done", "score": 4 },
+        { "text": "Will try new things if someone else suggests it", "score": 2 },
+        { "text": "Actively seek out adventurous or unconventional experiences", "score": 3 }
+      ],
+      "fact": "Franklin D. Roosevelt and his wife Eleanor were fifth cousins once removed, and Teddy Roosevelt (Eleanor's uncle) gave away the bride at their wedding.",
+      "factSources": "History.com | FDR Presidential Library"
+    },
+    {
+      "id": 6,
+      "dimension": "Risk Tolerance",
+      "question": "When faced with a financial opportunity that could pay off big or fail:",
+      "answers": [
+        { "text": "Pass unless you can afford to lose the money", "score": 1 },
+        { "text": "Calculate odds carefully before deciding", "score": 2 },
+        { "text": "Take the chance if potential reward excites you", "score": 3 },
+        { "text": "Go for it — fortune favors the brave", "score": 4 }
+      ],
+      "fact": "Ronald Reagan co-starred with a chimpanzee in the 1951 film \"Bedtime for Bonzo.\" During filming, the chimp grabbed his necktie and nearly strangled him before crew members cut him free.",
+      "factSources": "Mental Floss | RealClearHistory"
+    },
+    {
+      "id": 7,
+      "dimension": "Social Energy",
+      "question": "At a party with mostly strangers:",
+      "answers": [
+        { "text": "Stick with the few people you know", "score": 1 },
+        { "text": "Work the room and introduce yourself to everyone", "score": 4 },
+        { "text": "Have a few deep conversations with interesting people", "score": 2 },
+        { "text": "Become the life of the party with stories and jokes", "score": 3 }
+      ],
+      "fact": "Bill Clinton is an accomplished saxophone player who won first chair in Arkansas's All-State Band and seriously considered pursuing a career in music before entering politics.",
+      "factSources": "Classic FM | The Metropolitan Museum of Art"
+    },
+    {
+      "id": 8,
+      "dimension": "Social Energy",
+      "question": "After a long, stressful week, you recharge by:",
+      "answers": [
+        { "text": "Spending quiet time alone or with one close friend", "score": 1 },
+        { "text": "Going out with a group of friends", "score": 4 },
+        { "text": "Doing a solo activity like reading or hiking", "score": 2 },
+        { "text": "Hosting people or attending social events", "score": 3 }
+      ],
+      "fact": "George W. Bush was a part-owner of the Texas Rangers baseball team from 1989 to 1998, serving as managing general partner and often sitting in the stands as a regular fan.",
+      "factSources": "ESPN | Center for Public Integrity"
+    },
+    {
+      "id": 9,
+      "dimension": "Social Energy",
+      "question": "When meeting new people, you typically:",
+      "answers": [
+        { "text": "Let them do most of the talking at first", "score": 1 },
+        { "text": "Take the lead in conversation and share about yourself", "score": 4 },
+        { "text": "Keep things polite but surface-level", "score": 2 },
+        { "text": "Quickly build rapport and make them feel comfortable", "score": 3 }
+      ],
+      "fact": "Barack Obama collects Spider-Man and Conan the Barbarian comic books and has said reading comics as a child inspired his interest in storytelling.",
+      "factSources": "NPR | The Daily Telegraph"
+    },
+    {
+      "id": 10,
+      "dimension": "Decision-Making",
+      "question": "When your values conflict with what's practical:",
+      "answers": [
+        { "text": "Stick to your principles even if it's harder", "score": 1 },
+        { "text": "Find a middle ground that's good enough", "score": 3 },
+        { "text": "Do what works and revisit values later", "score": 4 },
+        { "text": "Never compromise on core beliefs", "score": 2 }
+      ],
+      "fact": "Donald Trump received a star on the Hollywood Walk of Fame in 2007 for his work as producer of the Miss Universe pageants and \"The Apprentice.\"",
+      "factSources": "Hollywood Walk of Fame | Fast Company"
+    },
+    {
+      "id": 11,
+      "dimension": "Decision-Making",
+      "question": "Your approach to rules and guidelines:",
+      "answers": [
+        { "text": "Rules exist for good reasons and should be followed", "score": 1 },
+        { "text": "Rules are guidelines — bend them when it makes sense", "score": 4 },
+        { "text": "Some rules are important, others are suggestions", "score": 3 },
+        { "text": "Consistency and fairness matter more than convenience", "score": 2 }
+      ],
+      "fact": "George Washington was an avid breeder who created the American Foxhound by crossing French hounds with English foxhounds.",
+      "factSources": "American Kennel Club | History.com"
+    },
+    {
+      "id": 12,
+      "dimension": "Decision-Making",
+      "question": "When working toward a goal, if circumstances change:",
+      "answers": [
+        { "text": "Adapt your approach while keeping the end goal", "score": 3 },
+        { "text": "Stick to your original plan — you chose it for a reason", "score": 1 },
+        { "text": "Completely pivot if a better opportunity appears", "score": 4 },
+        { "text": "Stay true to your vision even if the path is harder", "score": 2 }
+      ],
+      "fact": "Thomas Jefferson designed his own tombstone and wrote his own epitaph — notably leaving out that he had been President of the United States.",
+      "factSources": "Library of Congress | Monticello"
+    },
+    {
+      "id": 13,
+      "dimension": "Communication Style",
+      "question": "When someone asks your opinion on their clearly bad idea:",
+      "answers": [
+        { "text": "Point out the flaws directly but constructively", "score": 3 },
+        { "text": "Find something positive to say while gently steering them away", "score": 2 },
+        { "text": "Tell them straight up it won't work", "score": 4 },
+        { "text": "Ask questions to help them realize the issues themselves", "score": 1 }
+      ],
+      "fact": "Abraham Lincoln was a licensed bartender and co-owned a tavern called \"Berry and Lincoln\" in New Salem, Illinois before entering politics.",
+      "factSources": "Grunge | The Vintage News"
+    },
+    {
+      "id": 14,
+      "dimension": "Communication Style",
+      "question": "Your typical communication style in disagreements:",
+      "answers": [
+        { "text": "Say exactly what you think without sugarcoating", "score": 4 },
+        { "text": "Choose words carefully to avoid offense", "score": 1 },
+        { "text": "Be honest but soften the message", "score": 2 },
+        { "text": "Speak bluntly — people appreciate directness", "score": 3 }
+      ],
+      "fact": "Theodore Roosevelt read at least one book every single day — often finishing two or three — and could speed-read entire pages at a glance.",
+      "factSources": "Roosevelt Center | Art of Manliness"
+    },
+    {
+      "id": 15,
+      "dimension": "Communication Style",
+      "question": "When giving feedback to someone:",
+      "answers": [
+        { "text": "Be straightforward about what needs to improve", "score": 3 },
+        { "text": "Lead with positives before mentioning concerns", "score": 2 },
+        { "text": "Use tact and framing to deliver difficult messages", "score": 1 },
+        { "text": "Cut to the chase — clarity over comfort", "score": 4 }
+      ],
+      "fact": "Franklin D. Roosevelt used a secret train platform beneath the Waldorf Astoria hotel in New York to enter and exit without being seen in his wheelchair.",
+      "factSources": "Atlas Obscura — Track 61 | Gothamist"
+    }
+  ]
+}
