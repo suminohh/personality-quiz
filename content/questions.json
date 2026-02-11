@@ -17,13 +17,14 @@
     {
       "id": 1,
       "dimension": "Leadership Style",
-      "question": "When your friend group can't decide where to eat lunch, you typically:",
+"question": "When your friend group can't decide where to eat lunch, you typically:",
       "answers": [
         { "text": "Suggest we vote and go with majority preference", "score": 1 },
         { "text": "Ask everyone's preferences and find a compromise", "score": 2 },
         { "text": "Offer a strong suggestion and rally people around it", "score": 3 },
         { "text": "Just pick a place and tell everyone to meet you there", "score": 4 }
       ],
+      "factImage": { "src": "/images/facts/denture.png", "right": -140, "top": "40%", "width": "65%" },
       "fact": "George Washington's famous wooden teeth are a myth — his dentures were actually made from hippopotamus ivory, human teeth, and metal springs.",
       "factSources": [
         { "name": "Mount Vernon", "url": "https://www.mountvernon.org/library/digitalhistory/digital-encyclopedia/article/wooden-teeth-myth" },
@@ -40,6 +41,7 @@
         { "text": "Delegate the decision to whoever is most affected", "score": 2 },
         { "text": "Gather opinions but ultimately trust your own instinct", "score": 3 }
       ],
+      "factImage": { "src": "/images/facts/feather.png", "right": -140, "top": "50%", "width": "70%" },
       "fact": "Thomas Jefferson kept a pet mockingbird named Dick in his White House study that would fly around the room, perch on his shoulder, and take treats from his lips.",
       "factSources": [
         { "name": "Monticello", "url": "https://www.monticello.org/research-education/thomas-jefferson-encyclopedia/mockingbirds/" },
@@ -56,6 +58,7 @@
         { "text": "Make the big calls yourself to keep things moving fast", "score": 3 },
         { "text": "Start executing yourself and tell others exactly what to do and when", "score": 4 }
       ],
+      "factImage": { "src": "/images/facts/tophat.png", "right": -100, "top": "30%", "width": "70%" },
       "fact": "Abraham Lincoln kept important documents tucked inside his iconic stovepipe hat, using it as a portable filing cabinet.",
       "factSources": [
         { "name": "Smithsonian", "url": "https://www.smithsonianmag.com/history/abraham-lincolns-top-hat-the-inside-story-3764960/" },

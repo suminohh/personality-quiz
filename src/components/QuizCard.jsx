@@ -78,6 +78,7 @@ export default function QuizCard({ question, questionNumber, totalQuestions, onA
         </p>
       </div>
 
+
       {/* Question */}
       <h2 style={{
         fontFamily: "'Playfair Display', Georgia, serif",
@@ -143,7 +144,25 @@ export default function QuizCard({ question, questionNumber, totalQuestions, onA
         backgroundColor: 'rgba(13, 19, 45, 0.04)',
         borderLeft: '3px solid rgba(13, 19, 45, 0.15)',
         borderRadius: '0 4px 4px 0',
+        position: 'relative',
+        overflow: 'hidden',
       }}>
+        {question.factImage && (
+          <img
+            src={question.factImage.src}
+            alt=""
+            style={{
+              position: 'absolute',
+              right: question.factImage.right,
+              top: question.factImage.top,
+              transform: 'translateY(-50%)',
+              width: question.factImage.width,
+              height: 'auto',
+              opacity: 0.07,
+              pointerEvents: 'none',
+            }}
+          />
+        )}
         <p style={{
           fontSize: 11,
           fontWeight: 600,
