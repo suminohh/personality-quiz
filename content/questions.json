@@ -75,6 +75,7 @@
         { "text": "Test the waters first with small steps", "score": 2 },
         { "text": "Go all-in once you've made up your mind", "score": 3 }
       ],
+      "factImage": { "src": "/images/facts/spectacle.png", "right": -100, "top": "50%", "width": "65%" },
       "fact": "Theodore Roosevelt went completely blind in his left eye after a boxing match in the White House, but kept it secret from the public for years.",
       "factSources": [
         { "name": "Constitution Center", "url": "https://constitutioncenter.org/blog/10-little-known-facts-about-president-theodore-roosevelt" },
@@ -91,6 +92,7 @@
         { "text": "Will try new things if someone else suggests it", "score": 2 },
         { "text": "Actively seek out adventurous or unconventional experiences", "score": 3 }
       ],
+      "factImage": { "src": "/images/facts/bouquet.png", "right": -80, "top": "60%", "width": "55%" },
       "fact": "Franklin D. Roosevelt and his wife Eleanor were fifth cousins once removed, and Teddy Roosevelt (Eleanor's uncle) gave away the bride at their wedding.",
       "factSources": [
         { "name": "History.com", "url": "https://www.history.com/this-day-in-history/march-17/franklin-roosevelt-marries-eleanor-roosevelt" },
