@@ -225,12 +225,12 @@
     {
       "id": 14,
       "dimension": "Communication Style",
-      "question": "Your typical communication style in disagreements:",
+      "question": "When trying to convince someone to see things your way:",
       "answers": [
-        { "text": "Say exactly what you think without sugarcoating", "score": 4 },
-        { "text": "Choose words carefully to avoid offense", "score": 1 },
-        { "text": "Be honest but soften the message", "score": 2 },
-        { "text": "Speak bluntly — people appreciate directness", "score": 3 }
+        { "text": "Build your case with careful logic and let them come around", "score": 1 },
+        { "text": "Acknowledge their view first, then gently present yours", "score": 2 },
+        { "text": "Be upfront about why you think they're wrong", "score": 3 },
+        { "text": "State your position boldly and let the strength of the argument speak", "score": 4 }
       ],
       "fact": "Theodore Roosevelt read at least one book every single day — often finishing two or three — and could speed-read entire pages at a glance.",
       "factSources": [
@@ -241,12 +241,12 @@
     {
       "id": 15,
       "dimension": "Communication Style",
-      "question": "When giving feedback to someone:",
+      "question": "When someone misinterprets something you said:",
       "answers": [
-        { "text": "Be straightforward about what needs to improve", "score": 3 },
-        { "text": "Lead with positives before mentioning concerns", "score": 2 },
-        { "text": "Use tact and framing to deliver difficult messages", "score": 1 },
-        { "text": "Cut to the chase — clarity over comfort", "score": 4 }
+        { "text": "Restate it more carefully, adjusting your tone to avoid tension", "score": 1 },
+        { "text": "Gently clarify what you meant while validating their perspective", "score": 2 },
+        { "text": "Correct them plainly — \"that's not what I meant, here's what I said\"", "score": 3 },
+        { "text": "Double down — if they took it wrong, that's on them", "score": 4 }
       ],
       "fact": "Franklin D. Roosevelt used a secret train platform beneath the Waldorf Astoria hotel in New York to enter and exit without being seen in his wheelchair.",
       "factSources": [
