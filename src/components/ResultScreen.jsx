@@ -1,3 +1,5 @@
+import { useState } from 'react'
+
 export default function ResultScreen({
   president,
   userVector,
@@ -6,17 +8,29 @@ export default function ResultScreen({
   imageUrl,
   onBackToIntro,
 }) {
-  function handleShare() {
-    const text = `I got ${president.name}! Which president are you?`
-    const url = window.location.origin
+  const [copied, setCopied] = useState(false)
+  const shareText = `I got ${president.name}! Which president are you?`
+  const shareUrl = window.location.origin
 
-    if (navigator.share) {
-      navigator.share({ title: 'Which President Are You?', text, url }).catch(() => {})
-    } else {
-      navigator.clipboard.writeText(`${text}\n${url}`).then(() => {
-        alert('Copied to clipboard!')
-      })
-    }
+  function handleCopyLink() {
+    navigator.clipboard.writeText(`${shareText}\n${shareUrl}`).then(() => {
+      setCopied(true)
+      setTimeout(() => setCopied(false), 2000)
+    })
+  }
+
+  function handleFacebook() {
+    window.open(
+      `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}&quote=${encodeURIComponent(shareText)}`,
+      '_blank'
+    )
+  }
+
+  function handleTwitter() {
+    window.open(
+      `https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent(shareUrl)}`,
+      '_blank'
+    )
   }
   return (
     <div style={{
@@ -202,19 +216,19 @@ export default function ResultScreen({
         })}
       </div>
 
-      {/* Actions */}
+      {/* Share actions */}
       <div style={{
         display: 'flex',
         gap: 12,
-        marginBottom: 40,
+        marginBottom: 16,
       }}>
         <button
-          onClick={handleShare}
+          onClick={handleCopyLink}
           style={{
             fontFamily: "'Inter', sans-serif",
-            fontSize: 15,
+            fontSize: 14,
             fontWeight: 600,
-            padding: '14px 32px',
+            padding: '12px 20px',
             backgroundColor: '#0D132D',
             color: '#F3F0D6',
             border: 'none',
@@ -225,15 +239,15 @@ export default function ResultScreen({
           onMouseEnter={(e) => e.target.style.opacity = '0.85'}
           onMouseLeave={(e) => e.target.style.opacity = '1'}
         >
-          Share Results
+          {copied ? 'Copied!' : 'Copy Link'}
         </button>
         <button
-          onClick={onBackToIntro}
+          onClick={handleTwitter}
           style={{
             fontFamily: "'Inter', sans-serif",
-            fontSize: 15,
-            fontWeight: 500,
-            padding: '14px 32px',
+            fontSize: 14,
+            fontWeight: 600,
+            padding: '12px 20px',
             backgroundColor: 'transparent',
             color: '#0D132D',
             border: '1px solid rgba(13, 19, 45, 0.2)',
@@ -244,9 +258,47 @@ export default function ResultScreen({
           onMouseEnter={(e) => e.target.style.opacity = '0.7'}
           onMouseLeave={(e) => e.target.style.opacity = '1'}
         >
-          Home
+          Twitter
+        </button>
+        <button
+          onClick={handleFacebook}
+          style={{
+            fontFamily: "'Inter', sans-serif",
+            fontSize: 14,
+            fontWeight: 600,
+            padding: '12px 20px',
+            backgroundColor: 'transparent',
+            color: '#0D132D',
+            border: '1px solid rgba(13, 19, 45, 0.2)',
+            borderRadius: 4,
+            cursor: 'pointer',
+            transition: 'opacity 0.2s',
+          }}
+          onMouseEnter={(e) => e.target.style.opacity = '0.7'}
+          onMouseLeave={(e) => e.target.style.opacity = '1'}
+        >
+          Facebook
         </button>
       </div>
+
+      <button
+        onClick={onBackToIntro}
+        style={{
+          fontFamily: "'Inter', sans-serif",
+          fontSize: 13,
+          fontWeight: 500,
+          color: '#0D132D',
+          opacity: 0.4,
+          background: 'none',
+          border: 'none',
+          cursor: 'pointer',
+          marginBottom: 40,
+        }}
+        onMouseEnter={(e) => e.target.style.opacity = '0.7'}
+        onMouseLeave={(e) => e.target.style.opacity = '0.4'}
+      >
+        Home
+      </button>
     </div>
   )
 }
