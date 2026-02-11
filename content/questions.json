@@ -25,7 +25,10 @@
         { "text": "Just pick a place and tell everyone to meet you there", "score": 4 }
       ],
       "fact": "George Washington's famous wooden teeth are a myth — his dentures were actually made from hippopotamus ivory, human teeth, and metal springs.",
-      "factSources": "Mount Vernon | Smithsonian"
+      "factSources": [
+        { "name": "Mount Vernon", "url": "https://www.mountvernon.org/library/digitalhistory/digital-encyclopedia/article/wooden-teeth-myth" },
+        { "name": "Smithsonian", "url": "https://www.smithsonianmag.com/history/abraham-lincolns-top-hat-the-inside-story-3764960/" }
+      ]
     },
     {
       "id": 2,
@@ -38,7 +41,10 @@
         { "text": "Gather opinions but ultimately trust your own instinct", "score": 3 }
       ],
       "fact": "Thomas Jefferson kept a pet mockingbird named Dick in his White House study that would fly around the room, perch on his shoulder, and take treats from his lips.",
-      "factSources": "Monticello | Presidential Pet Museum"
+      "factSources": [
+        { "name": "Monticello", "url": "https://www.monticello.org/research-education/thomas-jefferson-encyclopedia/mockingbirds/" },
+        { "name": "Presidential Pet Museum", "url": "https://www.presidentialpetmuseum.com/pets/thomas-jeffersons-mockingbird/" }
+      ]
     },
     {
       "id": 3,
@@ -51,7 +57,10 @@
         { "text": "Make quick calls without much discussion to save time", "score": 3 }
       ],
       "fact": "Abraham Lincoln kept important documents tucked inside his iconic stovepipe hat, using it as a portable filing cabinet.",
-      "factSources": "Smithsonian | Abraham Lincoln Online"
+      "factSources": [
+        { "name": "Smithsonian", "url": "https://www.smithsonianmag.com/history/abraham-lincolns-top-hat-the-inside-story-3764960/" },
+        { "name": "Abraham Lincoln Online", "url": "https://www.abrahamlincolnonline.org/lincoln/education/hat.htm" }
+      ]
     },
     {
       "id": 4,
@@ -64,7 +73,10 @@
         { "text": "Go all-in once you've made up your mind", "score": 3 }
       ],
       "fact": "Theodore Roosevelt went completely blind in his left eye after a boxing match in the White House, but kept it secret from the public for years.",
-      "factSources": "Constitution Center | American Academy of Ophthalmology"
+      "factSources": [
+        { "name": "Constitution Center", "url": "https://constitutioncenter.org/blog/10-little-known-facts-about-president-theodore-roosevelt" },
+        { "name": "Roosevelt Center", "url": "https://www.theodorerooseveltcenter.org/digital-library/o308442/" }
+      ]
     },
     {
       "id": 5,
@@ -77,7 +89,10 @@
         { "text": "Actively seek out adventurous or unconventional experiences", "score": 3 }
       ],
       "fact": "Franklin D. Roosevelt and his wife Eleanor were fifth cousins once removed, and Teddy Roosevelt (Eleanor's uncle) gave away the bride at their wedding.",
-      "factSources": "History.com | FDR Presidential Library"
+      "factSources": [
+        { "name": "History.com", "url": "https://www.history.com/this-day-in-history/march-17/franklin-roosevelt-marries-eleanor-roosevelt" },
+        { "name": "History.com", "url": "https://www.history.com/articles/10-things-you-may-not-know-about-the-roosevelts" }
+      ]
     },
     {
       "id": 6,
@@ -90,7 +105,10 @@
         { "text": "Go for it — fortune favors the brave", "score": 4 }
       ],
       "fact": "Ronald Reagan co-starred with a chimpanzee in the 1951 film \"Bedtime for Bonzo.\" During filming, the chimp grabbed his necktie and nearly strangled him before crew members cut him free.",
-      "factSources": "Mental Floss | RealClearHistory"
+      "factSources": [
+        { "name": "Mental Floss", "url": "https://www.mentalfloss.com/article/52538/time-ronald-reagan-was-nearly-strangled-chimp" },
+        { "name": "Mental Floss", "url": "https://www.mentalfloss.com/article/549847/facts-about-ronald-reagan" }
+      ]
     },
     {
       "id": 7,
@@ -103,7 +121,10 @@
         { "text": "Become the life of the party with stories and jokes", "score": 3 }
       ],
       "fact": "Bill Clinton is an accomplished saxophone player who won first chair in Arkansas's All-State Band and seriously considered pursuing a career in music before entering politics.",
-      "factSources": "Classic FM | The Metropolitan Museum of Art"
+      "factSources": [
+        { "name": "Classic FM", "url": "https://www.classicfm.com/discover-music/instruments/saxophone/bill-clinton-saxophone/" },
+        { "name": "Classic FM", "url": "https://www.classicfm.com/discover-music/instruments/saxophone/bill-clinton-saxophone/" }
+      ]
     },
     {
       "id": 8,
@@ -116,7 +137,10 @@
         { "text": "Hosting people or attending social events", "score": 3 }
       ],
       "fact": "George W. Bush was a part-owner of the Texas Rangers baseball team from 1989 to 1998, serving as managing general partner and often sitting in the stands as a regular fan.",
-      "factSources": "ESPN | Center for Public Integrity"
+      "factSources": [
+        { "name": "ESPN", "url": "https://www.espn.com/mlb/bush/index.html" },
+        { "name": "ESPN", "url": "https://www.espn.com/mlb/bush/timeline.html" }
+      ]
     },
     {
       "id": 9,
@@ -129,7 +153,10 @@
         { "text": "Quickly build rapport and make them feel comfortable", "score": 3 }
       ],
       "fact": "Barack Obama collects Spider-Man and Conan the Barbarian comic books and has said reading comics as a child inspired his interest in storytelling.",
-      "factSources": "NPR | The Daily Telegraph"
+      "factSources": [
+        { "name": "NPR", "url": "https://www.npr.org/2008/11/20/97260170/analyzing-obamas-love-of-comic-books" },
+        { "name": "NPR", "url": "https://www.npr.org/2008/11/20/97260170/analyzing-obamas-love-of-comic-books" }
+      ]
     },
     {
       "id": 10,
@@ -142,7 +169,10 @@
         { "text": "Never compromise on core beliefs", "score": 2 }
       ],
       "fact": "Donald Trump received a star on the Hollywood Walk of Fame in 2007 for his work as producer of the Miss Universe pageants and \"The Apprentice.\"",
-      "factSources": "Hollywood Walk of Fame | Fast Company"
+      "factSources": [
+        { "name": "Hollywood Walk of Fame", "url": "https://walkoffame.com/donald-trump/" },
+        { "name": "Fast Company", "url": "https://www.fastcompany.com/4023036/why-the-heck-does-donald-trump-have-a-walk-of-fame-star-anyway-its-not-the-reason-you-think" }
+      ]
     },
     {
       "id": 11,
@@ -155,7 +185,10 @@
         { "text": "Consistency and fairness matter more than convenience", "score": 2 }
       ],
       "fact": "George Washington was an avid breeder who created the American Foxhound by crossing French hounds with English foxhounds.",
-      "factSources": "American Kennel Club | History.com"
+      "factSources": [
+        { "name": "American Kennel Club", "url": "https://www.akc.org/expert-advice/dog-breeds/by-george-washington-american-foxhounds/" },
+        { "name": "History.com", "url": "https://www.history.com/articles/10-things-you-may-not-know-about-the-roosevelts" }
+      ]
     },
     {
       "id": 12,
@@ -168,7 +201,10 @@
         { "text": "Stay true to your vision even if the path is harder", "score": 2 }
       ],
       "fact": "Thomas Jefferson designed his own tombstone and wrote his own epitaph — notably leaving out that he had been President of the United States.",
-      "factSources": "Library of Congress | Monticello"
+      "factSources": [
+        { "name": "Library of Congress", "url": "https://www.loc.gov/exhibits/jefferson/jeffleg.html" },
+        { "name": "Monticello", "url": "https://www.monticello.org/research-education/thomas-jefferson-encyclopedia/jeffersons-gravestone/" }
+      ]
     },
     {
       "id": 13,
@@ -181,7 +217,10 @@
         { "text": "Ask questions to help them realize the issues themselves", "score": 1 }
       ],
       "fact": "Abraham Lincoln was a licensed bartender and co-owned a tavern called \"Berry and Lincoln\" in New Salem, Illinois before entering politics.",
-      "factSources": "Grunge | The Vintage News"
+      "factSources": [
+        { "name": "Grunge", "url": "https://www.grunge.com/228499/abraham-lincoln-co-founded-a-bar-heres-what-we-know-about-it/" },
+        { "name": "The Vintage News", "url": "https://www.thevintagenews.com/2016/10/15/abraham-lincoln-was-the-only-president-who-was-also-a-licensed-bartender/" }
+      ]
     },
     {
       "id": 14,
@@ -194,7 +233,10 @@
         { "text": "Speak bluntly — people appreciate directness", "score": 3 }
       ],
       "fact": "Theodore Roosevelt read at least one book every single day — often finishing two or three — and could speed-read entire pages at a glance.",
-      "factSources": "Roosevelt Center | Art of Manliness"
+      "factSources": [
+        { "name": "Roosevelt Center", "url": "https://www.theodorerooseveltcenter.org/digital-library/o308442/" },
+        { "name": "Art of Manliness", "url": "https://www.artofmanliness.com/living/reading/how-to-speed-read-like-theodore-roosevelt/" }
+      ]
     },
     {
       "id": 15,
@@ -207,7 +249,10 @@
         { "text": "Cut to the chase — clarity over comfort", "score": 4 }
       ],
       "fact": "Franklin D. Roosevelt used a secret train platform beneath the Waldorf Astoria hotel in New York to enter and exit without being seen in his wheelchair.",
-      "factSources": "Atlas Obscura — Track 61 | Gothamist"
+      "factSources": [
+        { "name": "Atlas Obscura", "url": "https://www.atlasobscura.com/places/track-61" },
+        { "name": "Gothamist", "url": "https://gothamist.com/arts-entertainment/a-look-inside-track-61-the-secret-train-platform-under-the-waldorf-astoria" }
+      ]
     }
   ]
 }
