@@ -91,7 +91,7 @@
       "fact": "Franklin D. Roosevelt and his wife Eleanor were fifth cousins once removed, and Teddy Roosevelt (Eleanor's uncle) gave away the bride at their wedding.",
       "factSources": [
         { "name": "History.com", "url": "https://www.history.com/this-day-in-history/march-17/franklin-roosevelt-marries-eleanor-roosevelt" },
-        { "name": "History.com", "url": "https://www.history.com/articles/10-things-you-may-not-know-about-the-roosevelts" }
+        { "name": "FDR Presidential Library", "url": "https://www.fdrlibrary.org/partnership" }
       ]
     },
     {
@@ -107,7 +107,7 @@
       "fact": "Ronald Reagan co-starred with a chimpanzee in the 1951 film \"Bedtime for Bonzo.\" During filming, the chimp grabbed his necktie and nearly strangled him before crew members cut him free.",
       "factSources": [
         { "name": "Mental Floss", "url": "https://www.mentalfloss.com/article/52538/time-ronald-reagan-was-nearly-strangled-chimp" },
-        { "name": "Mental Floss", "url": "https://www.mentalfloss.com/article/549847/facts-about-ronald-reagan" }
+        { "name": "RealClearHistory", "url": "https://www.realclearhistory.com/2013/09/12/when_bonzo_nearly_strangled_reagan_4434.html" }
       ]
     },
     {
@@ -123,7 +123,7 @@
       "fact": "Bill Clinton is an accomplished saxophone player who won first chair in Arkansas's All-State Band and seriously considered pursuing a career in music before entering politics.",
       "factSources": [
         { "name": "Classic FM", "url": "https://www.classicfm.com/discover-music/instruments/saxophone/bill-clinton-saxophone/" },
-        { "name": "Classic FM", "url": "https://www.classicfm.com/discover-music/instruments/saxophone/bill-clinton-saxophone/" }
+        { "name": "The Met", "url": "https://www.metmuseum.org/perspectives/bill-clinton-saxophone" }
       ]
     },
     {
@@ -139,7 +139,7 @@
       "fact": "George W. Bush was a part-owner of the Texas Rangers baseball team from 1989 to 1998, serving as managing general partner and often sitting in the stands as a regular fan.",
       "factSources": [
         { "name": "ESPN", "url": "https://www.espn.com/mlb/bush/index.html" },
-        { "name": "ESPN", "url": "https://www.espn.com/mlb/bush/timeline.html" }
+        { "name": "Center for Public Integrity", "url": "https://publicintegrity.org/politics/how-george-w-bush-scored-big-with-the-texas-rangers/" }
       ]
     },
     {
@@ -155,7 +155,7 @@
       "fact": "Barack Obama collects Spider-Man and Conan the Barbarian comic books and has said reading comics as a child inspired his interest in storytelling.",
       "factSources": [
         { "name": "NPR", "url": "https://www.npr.org/2008/11/20/97260170/analyzing-obamas-love-of-comic-books" },
-        { "name": "NPR", "url": "https://www.npr.org/2008/11/20/97260170/analyzing-obamas-love-of-comic-books" }
+        { "name": "HuffPost", "url": "https://www.huffpost.com/entry/obama-collects-comics-50_n_142755" }
       ]
     },
     {
