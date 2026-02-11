@@ -13,7 +13,7 @@ export default function ResultScreen({
   const shareUrl = window.location.origin
 
   function handleCopyLink() {
-    navigator.clipboard.writeText(`${shareText}\n${shareUrl}`).then(() => {
+    navigator.clipboard.writeText(shareUrl).then(() => {
       setCopied(true)
       setTimeout(() => setCopied(false), 2000)
     })
