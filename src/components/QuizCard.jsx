@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-export default function QuizCard({ question, questionNumber, totalQuestions, onAnswer }) {
+export default function QuizCard({ question, questionNumber, totalQuestions, onAnswer, onBack }) {
   const [selected, setSelected] = useState(null)
 
   function handleSelect(score) {
@@ -38,18 +38,45 @@ export default function QuizCard({ question, questionNumber, totalQuestions, onA
         }} />
       </div>
 
-      {/* Question counter */}
-      <p style={{
-        fontSize: 13,
-        fontWeight: 600,
-        letterSpacing: '0.08em',
-        textTransform: 'uppercase',
-        color: '#0D132D',
-        opacity: 0.4,
+      {/* Back button + question counter */}
+      <div style={{
+        display: 'flex',
+        alignItems: 'center',
+        gap: 12,
         marginBottom: 32,
       }}>
-        {questionNumber} of {totalQuestions}
-      </p>
+        {onBack && (
+          <button
+            onClick={onBack}
+            style={{
+              fontFamily: "'Inter', sans-serif",
+              fontSize: 13,
+              fontWeight: 600,
+              color: '#0D132D',
+              opacity: 0.4,
+              background: 'none',
+              border: 'none',
+              cursor: 'pointer',
+              padding: 0,
+            }}
+            onMouseEnter={(e) => e.target.style.opacity = '0.7'}
+            onMouseLeave={(e) => e.target.style.opacity = '0.4'}
+          >
+            &larr;
+          </button>
+        )}
+        <p style={{
+          fontSize: 13,
+          fontWeight: 600,
+          letterSpacing: '0.08em',
+          textTransform: 'uppercase',
+          color: '#0D132D',
+          opacity: 0.4,
+          margin: 0,
+        }}>
+          {questionNumber} of {totalQuestions}
+        </p>
+      </div>
 
       {/* Question */}
       <h2 style={{

@@ -17,7 +17,7 @@
     {
       "id": 1,
       "dimension": "Leadership Style",
-      "question": "When your friend group can't decide where to eat dinner, you typically:",
+      "question": "When your friend group can't decide where to eat lunch, you typically:",
       "answers": [
         { "text": "Suggest we vote and go with majority preference", "score": 1 },
         { "text": "Ask everyone's preferences and find a compromise", "score": 2 },
@@ -51,10 +51,10 @@
       "dimension": "Leadership Style",
       "question": "When leading a project with a tight deadline:",
       "answers": [
-        { "text": "Break into tasks and let team members own their pieces", "score": 2 },
-        { "text": "Take charge and direct everyone's specific actions", "score": 4 },
-        { "text": "Set clear goals and let people find their own path", "score": 1 },
-        { "text": "Make quick calls without much discussion to save time", "score": 3 }
+        { "text": "Bring the team together to align on a plan before diving in", "score": 1 },
+        { "text": "Divide the work and check in regularly to keep things on track", "score": 2 },
+        { "text": "Make the big calls yourself to keep things moving fast", "score": 3 },
+        { "text": "Start executing yourself and tell others exactly what to do and when", "score": 4 }
       ],
       "fact": "Abraham Lincoln kept important documents tucked inside his iconic stovepipe hat, using it as a portable filing cabinet.",
       "factSources": [

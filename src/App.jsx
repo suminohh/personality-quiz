@@ -68,6 +68,13 @@ export default function App() {
     setResult(null)
   }
 
+  function handleBack() {
+    if (currentQuestion > 0) {
+      setCurrentQuestion(currentQuestion - 1)
+      setAnswers(answers.slice(0, -1))
+    }
+  }
+
   function handleAnswer(score) {
     const newAnswers = [...answers, score]
     setAnswers(newAnswers)
@@ -107,6 +114,7 @@ export default function App() {
           questionNumber={currentQuestion + 1}
           totalQuestions={questionsData.questions.length}
           onAnswer={handleAnswer}
+          onBack={currentQuestion > 0 ? handleBack : null}
         />
       )}
       {screen === 'result' && result && (
