@@ -12,7 +12,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 **Tech Stack:**
 - **Frontend:** React 18 + Vite
 - **Styling:** Inline CSS (government aesthetic: cream #F3F0D6, navy #0D132D)
-- **Deployment:** Netlify (static site, free tier)
+- **Deployment:** Vercel (static site, free tier)
 - **State:** React hooks (no external state management needed)
 - **No backend:** Fully static, quiz data in component/JSON files
 
