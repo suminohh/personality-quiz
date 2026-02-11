@@ -88,10 +88,6 @@ export default function App() {
     }
   }
 
-  function handleRestart() {
-    handleStart()
-  }
-
   function handleBackToIntro() {
     setScreen('intro')
     setCurrentQuestion(0)
@@ -124,7 +120,6 @@ export default function App() {
           dimensions={questionsData.dimensions}
           dimensionLabels={questionsData.dimensionLabels}
           imageUrl={IMAGE_MAP[result.president.id]}
-          onRestart={handleRestart}
           onBackToIntro={handleBackToIntro}
         />
       )}

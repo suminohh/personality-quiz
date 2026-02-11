@@ -4,9 +4,20 @@ export default function ResultScreen({
   dimensions,
   dimensionLabels,
   imageUrl,
-  onRestart,
   onBackToIntro,
 }) {
+  function handleShare() {
+    const text = `I got ${president.name}! Which president are you?`
+    const url = window.location.origin
+
+    if (navigator.share) {
+      navigator.share({ title: 'Which President Are You?', text, url }).catch(() => {})
+    } else {
+      navigator.clipboard.writeText(`${text}\n${url}`).then(() => {
+        alert('Copied to clipboard!')
+      })
+    }
+  }
   return (
     <div style={{
       display: 'flex',
@@ -198,7 +209,7 @@ export default function ResultScreen({
         marginBottom: 40,
       }}>
         <button
-          onClick={onRestart}
+          onClick={handleShare}
           style={{
             fontFamily: "'Inter', sans-serif",
             fontSize: 15,
@@ -214,7 +225,7 @@ export default function ResultScreen({
           onMouseEnter={(e) => e.target.style.opacity = '0.85'}
           onMouseLeave={(e) => e.target.style.opacity = '1'}
         >
-          Retake Quiz
+          Share Results
         </button>
         <button
           onClick={onBackToIntro}
