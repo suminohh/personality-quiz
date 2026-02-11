@@ -8,6 +8,7 @@ export default function IntroScreen({ onStart }) {
       minHeight: '80vh',
       textAlign: 'center',
     }}>
+
       <p style={{
         fontFamily: "'Inter', sans-serif",
         fontSize: 14,
