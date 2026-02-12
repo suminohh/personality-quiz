@@ -143,7 +143,7 @@
         { "text": "Catching up with a few friends over a low-key dinner", "score": 2 },
         { "text": "Hosting people or throwing a get-together at your place", "score": 3 }
       ],
-      "factImage": { "src": "/images/facts/rangers.png", "right": 5, "top": "48%", "width": "38%" },
+      "factImage": { "src": "/images/facts/rangers.webp", "right": 5, "top": "48%", "width": "38%" },
       "fact": "George W. Bush was a part-owner of the Texas Rangers baseball team from 1989 to 1998, serving as managing general partner and often sitting in the stands as a regular fan.",
       "factSources": [
         { "name": "ESPN", "url": "https://www.espn.com/mlb/bush/index.html" },
