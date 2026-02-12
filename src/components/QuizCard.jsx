@@ -15,11 +15,11 @@ export default function QuizCard({ question, questionNumber, totalQuestions, onA
     setSelected(score)
     setTimeout(() => {
       setVisible(false)
-    }, 150)
+    }, 250)
     setTimeout(() => {
       setSelected(null)
       onAnswer(score)
-    }, 400)
+    }, 650)
   }
 
   const progress = ((questionNumber - 1) / totalQuestions) * 100
@@ -91,7 +91,7 @@ export default function QuizCard({ question, questionNumber, totalQuestions, onA
 
       <div style={{
         opacity: visible ? 1 : 0,
-        transition: 'opacity 0.25s ease',
+        transition: 'opacity 0.4s ease',
         display: 'flex',
         flexDirection: 'column',
         flex: 1,

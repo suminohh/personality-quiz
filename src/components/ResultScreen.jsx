@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 export default function ResultScreen({
   president,
@@ -8,7 +8,12 @@ export default function ResultScreen({
   imageUrl,
   onBackToIntro,
 }) {
+  const [visible, setVisible] = useState(false)
   const [copied, setCopied] = useState(false)
+
+  useEffect(() => {
+    requestAnimationFrame(() => setVisible(true))
+  }, [])
   const shareText = `I got ${president.name}! Which president are you?`
   const shareUrl = window.location.origin
 
@@ -38,6 +43,8 @@ export default function ResultScreen({
       flexDirection: 'column',
       alignItems: 'center',
       paddingTop: 20,
+      opacity: visible ? 1 : 0,
+      transition: 'opacity 0.5s ease',
     }}>
       {/* Header */}
       <p style={{
@@ -90,7 +97,6 @@ export default function ResultScreen({
             width: '100%',
             height: '100%',
             objectFit: 'cover',
-            objectPosition: 'center 15%',
             filter: 'sepia(40%) brightness(0.95)',
           }}
         />
