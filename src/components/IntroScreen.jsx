@@ -70,7 +70,7 @@ export default function IntroScreen({ onStart }) {
       <p style={{
         fontSize: 13,
         color: '#0D132D',
-        opacity: 0.4,
+        opacity: 0.55,
         marginTop: 20,
       }}>
         Takes about 3 minutes
