@@ -3,10 +3,18 @@ import { useState, useEffect } from 'react'
 export default function QuizCard({ question, questionNumber, totalQuestions, onAnswer, onBack }) {
   const [selected, setSelected] = useState(null)
   const [visible, setVisible] = useState(true)
+  const [factVisible, setFactVisible] = useState(false)
 
   useEffect(() => {
     requestAnimationFrame(() => {
       setVisible(true)
+    })
+  }, [question.id])
+
+  useEffect(() => {
+    setFactVisible(false)
+    requestAnimationFrame(() => {
+      requestAnimationFrame(() => setFactVisible(true))
     })
   }, [question.id])
 
@@ -15,11 +23,11 @@ export default function QuizCard({ question, questionNumber, totalQuestions, onA
     setSelected(score)
     setTimeout(() => {
       setVisible(false)
-    }, 250)
+    }, 280)
     setTimeout(() => {
       setSelected(null)
       onAnswer(score)
-    }, 650)
+    }, 780)
   }
 
   const progress = (questionNumber / totalQuestions) * 100
@@ -91,7 +99,7 @@ export default function QuizCard({ question, questionNumber, totalQuestions, onA
 
       <div style={{
         opacity: visible ? 1 : 0,
-        transition: 'opacity 0.4s ease',
+        transition: 'opacity 0.55s ease',
         display: 'flex',
         flexDirection: 'column',
         flex: 1,
@@ -163,6 +171,9 @@ export default function QuizCard({ question, questionNumber, totalQuestions, onA
         borderRadius: '0 4px 4px 0',
         position: 'relative',
         overflow: 'hidden',
+        opacity: factVisible ? 1 : 0,
+        transform: factVisible ? 'translateY(0)' : 'translateY(24px)',
+        transition: 'opacity 0.5s ease-out 0.2s, transform 0.5s ease-out 0.2s',
       }}>
         {question.factImage && (
           <img

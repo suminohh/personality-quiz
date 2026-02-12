@@ -126,7 +126,7 @@
         { "text": "Have a few deep conversations with interesting people", "score": 2 },
         { "text": "Become the life of the party with stories and jokes", "score": 3 }
       ],
-      "factImage": { "src": "/images/facts/sax.webp", "right": -20, "top": "58%", "width": "50%", "rotate": -10 },
+      "factImage": { "src": "/images/facts/sax.webp", "right": 30, "top": "58%", "width": "50%", "rotate": -10 },
       "fact": "Bill Clinton is an accomplished saxophone player who won first chair in Arkansas's All-State Band and seriously considered pursuing a career in music before entering politics.",
       "factSources": [
         { "name": "Classic FM", "url": "https://www.classicfm.com/discover-music/instruments/saxophone/bill-clinton-saxophone/" },
@@ -228,7 +228,7 @@
         { "text": "Tell them straight up it won't work", "score": 4 },
         { "text": "Ask questions to help them realize the issues themselves", "score": 1 }
       ],
-      "factImage": { "src": "/images/facts/shaker.webp", "right": -30, "top": "100%", "width": "45%" },
+      "factImage": { "src": "/images/facts/shaker.webp", "right": -30, "top": "100%", "width": "45%", "rotate": 10 },
       "fact": "Abraham Lincoln was a licensed bartender and co-owned a tavern called \"Berry and Lincoln\" in New Salem, Illinois before entering politics.",
       "factSources": [
         { "name": "Grunge", "url": "https://www.grunge.com/228499/abraham-lincoln-co-founded-a-bar-heres-what-we-know-about-it/" },

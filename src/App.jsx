@@ -18,7 +18,16 @@ const IMAGE_MAP = {
   trump: '/images/presidents/trump.webp',
 }
 
-function calculateResult(answers) {
+function shuffleQuestions(questions) {
+  const arr = [...questions]
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1))
+    ;[arr[i], arr[j]] = [arr[j], arr[i]]
+  }
+  return arr
+}
+
+function calculateResult(questions, answers) {
   const dimensions = questionsData.dimensions
   const dimensionScores = {}
 
@@ -26,7 +35,7 @@ function calculateResult(answers) {
     dimensionScores[dim] = []
   })
 
-  questionsData.questions.forEach((q, i) => {
+  questions.forEach((q, i) => {
     if (answers[i] !== undefined) {
       dimensionScores[q.dimension].push(answers[i])
     }
@@ -60,6 +69,7 @@ export default function App() {
   const [currentQuestion, setCurrentQuestion] = useState(0)
   const [answers, setAnswers] = useState([])
   const [result, setResult] = useState(null)
+  const [questions, setQuestions] = useState(questionsData.questions)
 
   useEffect(() => {
     Object.values(IMAGE_MAP).forEach((src) => {
@@ -71,18 +81,19 @@ export default function App() {
   useEffect(() => {
     const preloadAhead = 2
     const start = currentQuestion
-    const end = Math.min(start + preloadAhead + 1, questionsData.questions.length)
+    const end = Math.min(start + preloadAhead + 1, questions.length)
     for (let i = start; i < end; i++) {
-      const q = questionsData.questions[i]
+      const q = questions[i]
       if (q.factImage) {
         const img = new Image()
         img.src = q.factImage.src
       }
     }
-  }, [currentQuestion])
+  }, [currentQuestion, questions])
 
   function handleStart() {
     setScreen('quiz')
+    setQuestions(shuffleQuestions(questionsData.questions))
     setCurrentQuestion(0)
     setAnswers([])
     setResult(null)
@@ -99,10 +110,10 @@ export default function App() {
     const newAnswers = [...answers, score]
     setAnswers(newAnswers)
 
-    if (currentQuestion < questionsData.questions.length - 1) {
+    if (currentQuestion < questions.length - 1) {
       setCurrentQuestion(currentQuestion + 1)
     } else {
-      const result = calculateResult(newAnswers)
+      const result = calculateResult(questions, newAnswers)
       setResult(result)
       setScreen('result')
     }
@@ -126,9 +137,9 @@ export default function App() {
       {screen === 'intro' && <IntroScreen onStart={handleStart} />}
       {screen === 'quiz' && (
         <QuizCard
-          question={questionsData.questions[currentQuestion]}
+          question={questions[currentQuestion]}
           questionNumber={currentQuestion + 1}
-          totalQuestions={questionsData.questions.length}
+          totalQuestions={questions.length}
           onAnswer={handleAnswer}
           onBack={currentQuestion > 0 ? handleBack : null}
         />
