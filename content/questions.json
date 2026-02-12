@@ -36,7 +36,7 @@
       "dimension": "Leadership Style",
       "question": "At work, when facing a difficult decision with your team:",
       "answers": [
-        { "text": "Schedule a meeting to hear everyone's input first", "score": 1 },
+        { "text": "Open it up for group discussion and go with what the team decides", "score": 1 },
         { "text": "Make the call quickly based on your judgment", "score": 4 },
         { "text": "Delegate the decision to whoever is most affected", "score": 2 },
         { "text": "Gather opinions but ultimately trust your own instinct", "score": 3 }
@@ -53,10 +53,10 @@
       "dimension": "Leadership Style",
       "question": "When leading a project with a tight deadline:",
       "answers": [
-        { "text": "Bring the team together to align on a plan before diving in", "score": 1 },
+        { "text": "Make sure everyone has a voice in shaping the plan before anyone starts", "score": 1 },
         { "text": "Divide the work and check in regularly to keep things on track", "score": 2 },
-        { "text": "Make the big calls yourself to keep things moving fast", "score": 3 },
-        { "text": "Start executing yourself and tell others exactly what to do and when", "score": 4 }
+        { "text": "Trust your instincts on the strategy and get buy-in as you go", "score": 3 },
+        { "text": "Take full ownership — no time for discussion, just execute", "score": 4 }
       ],
       "factImage": { "src": "/images/facts/tophat.png", "right": -70, "top": "40%", "width": "62%" },
       "fact": "Abraham Lincoln kept important documents tucked inside his iconic stovepipe hat, using it as a portable filing cabinet.",
@@ -73,7 +73,7 @@
         { "text": "Research extensively and make pro/con lists for months", "score": 1 },
         { "text": "Trust your gut and jump in if it feels right", "score": 4 },
         { "text": "Test the waters first with small steps", "score": 2 },
-        { "text": "Go all-in once you've made up your mind", "score": 3 }
+        { "text": "Do your homework, but once you're convinced, commit fully", "score": 3 }
       ],
       "factImage": { "src": "/images/facts/spectacle.png", "right": -100, "top": "50%", "width": "65%" },
       "fact": "Theodore Roosevelt went completely blind in his left eye after a boxing match in the White House, but kept it secret from the public for years.",
@@ -140,8 +140,8 @@
       "answers": [
         { "text": "Spending quiet time alone or with one close friend", "score": 1 },
         { "text": "Going out with a group of friends", "score": 4 },
-        { "text": "Doing a solo activity like reading or hiking", "score": 2 },
-        { "text": "Hosting people or attending social events", "score": 3 }
+        { "text": "Catching up with a few friends over a low-key dinner", "score": 2 },
+        { "text": "Hosting people or throwing a get-together at your place", "score": 3 }
       ],
       "factImage": { "src": "/images/facts/rangers.png", "right": 5, "top": "48%", "width": "38%" },
       "fact": "George W. Bush was a part-owner of the Texas Rangers baseball team from 1989 to 1998, serving as managing general partner and often sitting in the stands as a regular fan.",
@@ -255,12 +255,12 @@
     {
       "id": 15,
       "dimension": "Communication Style",
-      "question": "When someone misinterprets something you said:",
+      "question": "When a heated argument breaks out in a group you're part of:",
       "answers": [
-        { "text": "Restate it more carefully, adjusting your tone to avoid tension", "score": 1 },
-        { "text": "Gently clarify what you meant while validating their perspective", "score": 2 },
-        { "text": "Correct them plainly — \"that's not what I meant, here's what I said\"", "score": 3 },
-        { "text": "Double down — if they took it wrong, that's on them", "score": 4 }
+        { "text": "Stay quiet and wait for things to cool down before saying anything", "score": 1 },
+        { "text": "Try to mediate and help both sides find common ground", "score": 2 },
+        { "text": "Jump in and share your honest take on who's right", "score": 3 },
+        { "text": "Take charge of the conversation and shut down the drama", "score": 4 }
       ],
       "factImage": { "src": "/images/facts/platform.png", "right": -80, "top": "-55%", "width": "65%" },
       "fact": "Franklin D. Roosevelt used a secret train platform beneath the Waldorf Astoria hotel in New York to enter and exit without being seen in his wheelchair.",
