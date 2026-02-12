@@ -155,7 +155,7 @@ export default function QuizCard({ question, questionNumber, totalQuestions, onA
               position: 'absolute',
               right: question.factImage.right,
               top: question.factImage.top,
-              transform: 'translateY(-50%)',
+              transform: `translateY(-50%)${question.factImage.rotate ? ` rotate(${question.factImage.rotate}deg)` : ''}`,
               width: question.factImage.width,
               height: 'auto',
               opacity: 0.07,

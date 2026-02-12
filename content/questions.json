@@ -92,7 +92,7 @@
         { "text": "Will try new things if someone else suggests it", "score": 2 },
         { "text": "Actively seek out adventurous or unconventional experiences", "score": 3 }
       ],
-      "factImage": { "src": "/images/facts/bouquet.png", "right": -80, "top": "60%", "width": "55%" },
+      "factImage": { "src": "/images/facts/bouquet.png", "right": -55, "top": "60%", "width": "55%" },
       "fact": "Franklin D. Roosevelt and his wife Eleanor were fifth cousins once removed, and Teddy Roosevelt (Eleanor's uncle) gave away the bride at their wedding.",
       "factSources": [
         { "name": "History.com", "url": "https://www.history.com/this-day-in-history/march-17/franklin-roosevelt-marries-eleanor-roosevelt" },
@@ -109,7 +109,7 @@
         { "text": "Take the chance if potential reward excites you", "score": 3 },
         { "text": "Go for it — fortune favors the brave", "score": 4 }
       ],
-      "factImage": { "src": "/images/facts/bonzo.png", "right": -100, "top": "58%", "width": "60%" },
+      "factImage": { "src": "/images/facts/bonzo.png", "right": -70, "top": "58%", "width": "60%" },
       "fact": "Ronald Reagan co-starred with a chimpanzee in the 1951 film \"Bedtime for Bonzo.\" During filming, the chimp grabbed his necktie and nearly strangled him before crew members cut him free.",
       "factSources": [
         { "name": "Mental Floss", "url": "https://www.mentalfloss.com/article/52538/time-ronald-reagan-was-nearly-strangled-chimp" },
@@ -126,7 +126,7 @@
         { "text": "Have a few deep conversations with interesting people", "score": 2 },
         { "text": "Become the life of the party with stories and jokes", "score": 3 }
       ],
-      "factImage": { "src": "/images/facts/sax.png", "right": -10, "top": "50%", "width": "40%" },
+      "factImage": { "src": "/images/facts/sax.png", "right": 5, "top": "50%", "width": "40%", "rotate": -10 },
       "fact": "Bill Clinton is an accomplished saxophone player who won first chair in Arkansas's All-State Band and seriously considered pursuing a career in music before entering politics.",
       "factSources": [
         { "name": "Classic FM", "url": "https://www.classicfm.com/discover-music/instruments/saxophone/bill-clinton-saxophone/" },
