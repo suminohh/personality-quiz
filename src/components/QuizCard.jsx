@@ -1,15 +1,25 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 export default function QuizCard({ question, questionNumber, totalQuestions, onAnswer, onBack }) {
   const [selected, setSelected] = useState(null)
+  const [visible, setVisible] = useState(true)
+
+  useEffect(() => {
+    requestAnimationFrame(() => {
+      setVisible(true)
+    })
+  }, [question.id])
 
   function handleSelect(score) {
     if (selected !== null) return
     setSelected(score)
     setTimeout(() => {
+      setVisible(false)
+    }, 150)
+    setTimeout(() => {
       setSelected(null)
       onAnswer(score)
-    }, 300)
+    }, 400)
   }
 
   const progress = ((questionNumber - 1) / totalQuestions) * 100
@@ -79,6 +89,13 @@ export default function QuizCard({ question, questionNumber, totalQuestions, onA
       </div>
 
 
+      <div style={{
+        opacity: visible ? 1 : 0,
+        transition: 'opacity 0.25s ease',
+        display: 'flex',
+        flexDirection: 'column',
+        flex: 1,
+      }}>
       {/* Question */}
       <h2 style={{
         fontFamily: "'Playfair Display', Georgia, serif",
@@ -209,6 +226,7 @@ export default function QuizCard({ question, questionNumber, totalQuestions, onA
             : question.factSources
           }
         </p>
+      </div>
       </div>
     </div>
   )
