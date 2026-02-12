@@ -75,8 +75,8 @@ export default function ResultScreen({
 
       {/* Portrait */}
       <div style={{
-        width: 240,
-        height: 240,
+        width: 'clamp(180px, 35vw, 240px)',
+        height: 'clamp(180px, 35vw, 240px)',
         borderRadius: '50%',
         overflow: 'hidden',
         border: '3px solid rgba(13, 19, 45, 0.15)',
