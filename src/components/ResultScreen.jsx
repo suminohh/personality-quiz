@@ -91,6 +91,7 @@ export default function ResultScreen({
             height: '100%',
             objectFit: 'cover',
             objectPosition: 'center 15%',
+            filter: 'sepia(40%) brightness(0.95)',
           }}
         />
       </div>
