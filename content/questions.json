@@ -126,7 +126,7 @@
         { "text": "Have a few deep conversations with interesting people", "score": 2 },
         { "text": "Become the life of the party with stories and jokes", "score": 3 }
       ],
-      "factImage": { "src": "/images/facts/sax.webp", "right": 30, "top": "58%", "width": "50%", "rotate": -10 },
+      "factImage": { "src": "/images/facts/sax.webp", "right": 5, "top": "58%", "width": "50%", "rotate": -10 },
       "fact": "Bill Clinton is an accomplished saxophone player who won first chair in Arkansas's All-State Band and seriously considered pursuing a career in music before entering politics.",
       "factSources": [
         { "name": "Classic FM", "url": "https://www.classicfm.com/discover-music/instruments/saxophone/bill-clinton-saxophone/" },
