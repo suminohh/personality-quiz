@@ -62,13 +62,17 @@ export default function App() {
   const [result, setResult] = useState(null)
 
   useEffect(() => {
-    questionsData.questions.forEach((q) => {
+    const preloadAhead = 2
+    const start = currentQuestion
+    const end = Math.min(start + preloadAhead + 1, questionsData.questions.length)
+    for (let i = start; i < end; i++) {
+      const q = questionsData.questions[i]
       if (q.factImage) {
         const img = new Image()
         img.src = q.factImage.src
       }
-    })
-  }, [])
+    }
+  }, [currentQuestion])
 
   function handleStart() {
     setScreen('quiz')

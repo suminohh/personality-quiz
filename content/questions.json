@@ -24,7 +24,7 @@
         { "text": "Offer a strong suggestion and rally people around it", "score": 3 },
         { "text": "Just pick a place and tell everyone to meet you there", "score": 4 }
       ],
-      "factImage": { "src": "/images/facts/denture.png", "right": -140, "top": "30%", "width": "58%" },
+      "factImage": { "src": "/images/facts/denture.webp", "right": -140, "top": "30%", "width": "58%" },
       "fact": "George Washington's famous wooden teeth are a myth — his dentures were actually made from hippopotamus ivory, human teeth, and metal springs.",
       "factSources": [
         { "name": "Mount Vernon", "url": "https://www.mountvernon.org/library/digitalhistory/digital-encyclopedia/article/wooden-teeth-myth" },
@@ -41,7 +41,7 @@
         { "text": "Delegate the decision to whoever is most affected", "score": 2 },
         { "text": "Gather opinions but ultimately trust your own instinct", "score": 3 }
       ],
-      "factImage": { "src": "/images/facts/feather.png", "right": -140, "top": "50%", "width": "70%" },
+      "factImage": { "src": "/images/facts/feather.webp", "right": -140, "top": "50%", "width": "70%" },
       "fact": "Thomas Jefferson kept a pet mockingbird named Dick in his White House study that would fly around the room, perch on his shoulder, and take treats from his lips.",
       "factSources": [
         { "name": "Monticello", "url": "https://www.monticello.org/research-education/thomas-jefferson-encyclopedia/mockingbirds/" },
@@ -58,7 +58,7 @@
         { "text": "Trust your instincts on the strategy and get buy-in as you go", "score": 3 },
         { "text": "Take full ownership — no time for discussion, just execute", "score": 4 }
       ],
-      "factImage": { "src": "/images/facts/tophat.png", "right": -70, "top": "40%", "width": "62%" },
+      "factImage": { "src": "/images/facts/tophat.webp", "right": -70, "top": "40%", "width": "62%" },
       "fact": "Abraham Lincoln kept important documents tucked inside his iconic stovepipe hat, using it as a portable filing cabinet.",
       "factSources": [
         { "name": "Smithsonian", "url": "https://www.smithsonianmag.com/history/abraham-lincolns-top-hat-the-inside-story-3764960/" },
@@ -75,7 +75,7 @@
         { "text": "Test the waters first with small steps", "score": 2 },
         { "text": "Do your homework, but once you're convinced, commit fully", "score": 3 }
       ],
-      "factImage": { "src": "/images/facts/spectacle.png", "right": -100, "top": "50%", "width": "65%" },
+      "factImage": { "src": "/images/facts/spectacle.webp", "right": -100, "top": "50%", "width": "65%" },
       "fact": "Theodore Roosevelt went completely blind in his left eye after a boxing match in the White House, but kept it secret from the public for years.",
       "factSources": [
         { "name": "Constitution Center", "url": "https://constitutioncenter.org/blog/10-little-known-facts-about-president-theodore-roosevelt" },
@@ -92,7 +92,7 @@
         { "text": "Will try new things if someone else suggests it", "score": 2 },
         { "text": "Actively seek out adventurous or unconventional experiences", "score": 3 }
       ],
-      "factImage": { "src": "/images/facts/bouquet.png", "right": -55, "top": "60%", "width": "55%" },
+      "factImage": { "src": "/images/facts/bouquet.webp", "right": -55, "top": "60%", "width": "55%" },
       "fact": "Franklin D. Roosevelt and his wife Eleanor were fifth cousins once removed, and Teddy Roosevelt (Eleanor's uncle) gave away the bride at their wedding.",
       "factSources": [
         { "name": "History.com", "url": "https://www.history.com/this-day-in-history/march-17/franklin-roosevelt-marries-eleanor-roosevelt" },
@@ -109,7 +109,7 @@
         { "text": "Take the chance if potential reward excites you", "score": 3 },
         { "text": "Go for it — fortune favors the brave", "score": 4 }
       ],
-      "factImage": { "src": "/images/facts/bonzo.png", "right": -70, "top": "58%", "width": "60%" },
+      "factImage": { "src": "/images/facts/bonzo.webp", "right": -70, "top": "58%", "width": "60%" },
       "fact": "Ronald Reagan co-starred with a chimpanzee in the 1951 film \"Bedtime for Bonzo.\" During filming, the chimp grabbed his necktie and nearly strangled him before crew members cut him free.",
       "factSources": [
         { "name": "Mental Floss", "url": "https://www.mentalfloss.com/article/52538/time-ronald-reagan-was-nearly-strangled-chimp" },
@@ -126,7 +126,7 @@
         { "text": "Have a few deep conversations with interesting people", "score": 2 },
         { "text": "Become the life of the party with stories and jokes", "score": 3 }
       ],
-      "factImage": { "src": "/images/facts/sax.png", "right": -20, "top": "58%", "width": "50%", "rotate": -10 },
+      "factImage": { "src": "/images/facts/sax.webp", "right": -20, "top": "58%", "width": "50%", "rotate": -10 },
       "fact": "Bill Clinton is an accomplished saxophone player who won first chair in Arkansas's All-State Band and seriously considered pursuing a career in music before entering politics.",
       "factSources": [
         { "name": "Classic FM", "url": "https://www.classicfm.com/discover-music/instruments/saxophone/bill-clinton-saxophone/" },
@@ -143,7 +143,7 @@
         { "text": "Catching up with a few friends over a low-key dinner", "score": 2 },
         { "text": "Hosting people or throwing a get-together at your place", "score": 3 }
       ],
-      "factImage": { "src": "/images/facts/rangers.png", "right": 5, "top": "48%", "width": "38%" },
+      "factImage": { "src": "/images/facts/rangers.webp", "right": 5, "top": "48%", "width": "38%" },
       "fact": "George W. Bush was a part-owner of the Texas Rangers baseball team from 1989 to 1998, serving as managing general partner and often sitting in the stands as a regular fan.",
       "factSources": [
         { "name": "ESPN", "url": "https://www.espn.com/mlb/bush/index.html" },
@@ -160,7 +160,7 @@
         { "text": "Keep things polite but surface-level", "score": 2 },
         { "text": "Quickly build rapport and make them feel comfortable", "score": 3 }
       ],
-      "factImage": { "src": "/images/facts/conan.png", "right": -150, "top": "250%", "width": "85%" },
+      "factImage": { "src": "/images/facts/conan.webp", "right": -150, "top": "250%", "width": "85%" },
       "fact": "Barack Obama collects Spider-Man and Conan the Barbarian comic books and has said reading comics as a child inspired his interest in storytelling.",
       "factSources": [
         { "name": "NPR", "url": "https://www.npr.org/2008/11/20/97260170/analyzing-obamas-love-of-comic-books" },
@@ -177,7 +177,7 @@
         { "text": "Do what works and revisit values later", "score": 4 },
         { "text": "Never compromise on core beliefs", "score": 2 }
       ],
-      "factImage": { "src": "/images/facts/crown.png", "right": -120, "top": "85%", "width": "75%" },
+      "factImage": { "src": "/images/facts/crown.webp", "right": -120, "top": "85%", "width": "75%" },
       "fact": "Donald Trump received a star on the Hollywood Walk of Fame in 2007 for his work as producer of the Miss Universe pageants and \"The Apprentice.\"",
       "factSources": [
         { "name": "Hollywood Walk of Fame", "url": "https://walkoffame.com/donald-trump/" },
@@ -194,7 +194,7 @@
         { "text": "Some rules are important, others are suggestions", "score": 3 },
         { "text": "Consistency and fairness matter more than convenience", "score": 2 }
       ],
-      "factImage": { "src": "/images/facts/foxhound.png", "right": -20, "top": "100%", "width": "40%" },
+      "factImage": { "src": "/images/facts/foxhound.webp", "right": -20, "top": "100%", "width": "40%" },
       "fact": "George Washington was an avid breeder who created the American Foxhound by crossing French hounds with English foxhounds.",
       "factSources": [
         { "name": "American Kennel Club", "url": "https://www.akc.org/expert-advice/dog-breeds/by-george-washington-american-foxhounds/" },
@@ -211,7 +211,7 @@
         { "text": "Completely pivot if a better opportunity appears", "score": 4 },
         { "text": "Stay true to your vision even if the path is harder", "score": 2 }
       ],
-      "factImage": { "src": "/images/facts/obelisk.png", "right": -120, "top": "220%", "width": "70%" },
+      "factImage": { "src": "/images/facts/obelisk.webp", "right": -120, "top": "220%", "width": "70%" },
       "fact": "Thomas Jefferson designed his own tombstone and wrote his own epitaph — notably leaving out that he had been President of the United States.",
       "factSources": [
         { "name": "Library of Congress", "url": "https://www.loc.gov/exhibits/jefferson/jeffleg.html" },
@@ -228,7 +228,7 @@
         { "text": "Tell them straight up it won't work", "score": 4 },
         { "text": "Ask questions to help them realize the issues themselves", "score": 1 }
       ],
-      "factImage": { "src": "/images/facts/shaker.png", "right": -30, "top": "100%", "width": "45%" },
+      "factImage": { "src": "/images/facts/shaker.webp", "right": -30, "top": "100%", "width": "45%" },
       "fact": "Abraham Lincoln was a licensed bartender and co-owned a tavern called \"Berry and Lincoln\" in New Salem, Illinois before entering politics.",
       "factSources": [
         { "name": "Grunge", "url": "https://www.grunge.com/228499/abraham-lincoln-co-founded-a-bar-heres-what-we-know-about-it/" },
@@ -245,7 +245,7 @@
         { "text": "Be upfront about why you think they're wrong", "score": 3 },
         { "text": "State your position boldly and let the strength of the argument speak", "score": 4 }
       ],
-      "factImage": { "src": "/images/facts/book.png", "right": -100, "top": "0%", "width": "55%" },
+      "factImage": { "src": "/images/facts/book.webp", "right": -100, "top": "0%", "width": "55%" },
       "fact": "Theodore Roosevelt read at least one book every single day — often finishing two or three — and could speed-read entire pages at a glance.",
       "factSources": [
         { "name": "Roosevelt Center", "url": "https://www.theodorerooseveltcenter.org/digital-library/o308442/" },
@@ -262,7 +262,7 @@
         { "text": "Jump in and share your honest take on who's right", "score": 3 },
         { "text": "Take charge of the conversation and shut down the drama", "score": 4 }
       ],
-      "factImage": { "src": "/images/facts/platform.png", "right": -80, "top": "-55%", "width": "65%" },
+      "factImage": { "src": "/images/facts/platform.webp", "right": -80, "top": "-55%", "width": "65%" },
       "fact": "Franklin D. Roosevelt used a secret train platform beneath the Waldorf Astoria hotel in New York to enter and exit without being seen in his wheelchair.",
       "factSources": [
         { "name": "Atlas Obscura", "url": "https://www.atlasobscura.com/places/track-61" },
