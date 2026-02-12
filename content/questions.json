@@ -126,7 +126,7 @@
         { "text": "Have a few deep conversations with interesting people", "score": 2 },
         { "text": "Become the life of the party with stories and jokes", "score": 3 }
       ],
-      "factImage": { "src": "/images/facts/sax.png", "right": 5, "top": "50%", "width": "40%", "rotate": -10 },
+      "factImage": { "src": "/images/facts/sax.png", "right": -20, "top": "58%", "width": "50%", "rotate": -10 },
       "fact": "Bill Clinton is an accomplished saxophone player who won first chair in Arkansas's All-State Band and seriously considered pursuing a career in music before entering politics.",
       "factSources": [
         { "name": "Classic FM", "url": "https://www.classicfm.com/discover-music/instruments/saxophone/bill-clinton-saxophone/" },
@@ -160,6 +160,7 @@
         { "text": "Keep things polite but surface-level", "score": 2 },
         { "text": "Quickly build rapport and make them feel comfortable", "score": 3 }
       ],
+      "factImage": { "src": "/images/facts/conan.png", "right": -150, "top": "250%", "width": "85%" },
       "fact": "Barack Obama collects Spider-Man and Conan the Barbarian comic books and has said reading comics as a child inspired his interest in storytelling.",
       "factSources": [
         { "name": "NPR", "url": "https://www.npr.org/2008/11/20/97260170/analyzing-obamas-love-of-comic-books" },
@@ -176,6 +177,7 @@
         { "text": "Do what works and revisit values later", "score": 4 },
         { "text": "Never compromise on core beliefs", "score": 2 }
       ],
+      "factImage": { "src": "/images/facts/crown.png", "right": -30, "top": "52%", "width": "38%" },
       "fact": "Donald Trump received a star on the Hollywood Walk of Fame in 2007 for his work as producer of the Miss Universe pageants and \"The Apprentice.\"",
       "factSources": [
         { "name": "Hollywood Walk of Fame", "url": "https://walkoffame.com/donald-trump/" },
