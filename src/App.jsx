@@ -6,16 +6,16 @@ import QuizCard from './components/QuizCard'
 import ResultScreen from './components/ResultScreen'
 
 const IMAGE_MAP = {
-  washington: '/images/presidents/washington.png',
-  jefferson: '/images/presidents/jefferson.png',
-  lincoln: '/images/presidents/lincoln.png',
-  't-roosevelt': '/images/presidents/ted_roosevelt.png',
-  fdr: '/images/presidents/frank_roosevelt.png',
-  reagan: '/images/presidents/reagan.png',
-  clinton: '/images/presidents/clinton.png',
-  bush: '/images/presidents/bush.png',
-  obama: '/images/presidents/obama.png',
-  trump: '/images/presidents/trump.png',
+  washington: '/images/presidents/washington.webp',
+  jefferson: '/images/presidents/jefferson.webp',
+  lincoln: '/images/presidents/lincoln.webp',
+  't-roosevelt': '/images/presidents/ted_roosevelt.webp',
+  fdr: '/images/presidents/frank_roosevelt.webp',
+  reagan: '/images/presidents/reagan.webp',
+  clinton: '/images/presidents/clinton.webp',
+  bush: '/images/presidents/bush.webp',
+  obama: '/images/presidents/obama.webp',
+  trump: '/images/presidents/trump.webp',
 }
 
 function calculateResult(answers) {
@@ -60,6 +60,13 @@ export default function App() {
   const [currentQuestion, setCurrentQuestion] = useState(0)
   const [answers, setAnswers] = useState([])
   const [result, setResult] = useState(null)
+
+  useEffect(() => {
+    Object.values(IMAGE_MAP).forEach((src) => {
+      const img = new Image()
+      img.src = src
+    })
+  }, [])
 
   useEffect(() => {
     const preloadAhead = 2
