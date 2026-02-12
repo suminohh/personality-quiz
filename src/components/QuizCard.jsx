@@ -149,6 +149,7 @@ export default function QuizCard({ question, questionNumber, totalQuestions, onA
       }}>
         {question.factImage && (
           <img
+            key={question.id}
             src={question.factImage.src}
             alt=""
             style={{
