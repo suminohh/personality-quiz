@@ -22,7 +22,7 @@ export default function QuizCard({ question, questionNumber, totalQuestions, onA
     }, 650)
   }
 
-  const progress = ((questionNumber - 1) / totalQuestions) * 100
+  const progress = (questionNumber / totalQuestions) * 100
 
   return (
     <div style={{
