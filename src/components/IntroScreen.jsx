@@ -81,7 +81,7 @@ export default function IntroScreen({ onStart }) {
         alt=""
         style={{
           position: 'fixed',
-          bottom: -80,
+          bottom: 'clamp(-140px, -10vw, -40px)',
           left: 0,
           width: '100vw',
           minWidth: 600,
