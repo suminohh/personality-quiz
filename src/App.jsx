@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import questionsData from '../content/questions.json'
 import presidentsData from '../content/presidents.json'
 import IntroScreen from './components/IntroScreen'
@@ -60,6 +60,15 @@ export default function App() {
   const [currentQuestion, setCurrentQuestion] = useState(0)
   const [answers, setAnswers] = useState([])
   const [result, setResult] = useState(null)
+
+  useEffect(() => {
+    questionsData.questions.forEach((q) => {
+      if (q.factImage) {
+        const img = new Image()
+        img.src = q.factImage.src
+      }
+    })
+  }, [])
 
   function handleStart() {
     setScreen('quiz')
