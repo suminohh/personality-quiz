@@ -14,6 +14,13 @@ export default function ResultScreen({
   useEffect(() => {
     requestAnimationFrame(() => setVisible(true))
   }, [])
+
+  const stagger = (index) => ({
+    opacity: visible ? 1 : 0,
+    transform: visible ? 'translateY(0)' : 'translateY(16px)',
+    transition: `opacity 0.6s ease ${index * 0.12}s, transform 0.6s ease ${index * 0.12}s`,
+  })
+
   const shareText = `I got ${president.name}! Which president are you?`
   const shareUrl = window.location.origin
 
@@ -43,8 +50,6 @@ export default function ResultScreen({
       flexDirection: 'column',
       alignItems: 'center',
       paddingTop: 20,
-      opacity: visible ? 1 : 0,
-      transition: 'opacity 0.5s ease',
     }}>
       {/* Header */}
       <p style={{
@@ -53,8 +58,9 @@ export default function ResultScreen({
         letterSpacing: '0.12em',
         textTransform: 'uppercase',
         color: '#0D132D',
-        opacity: 0.4,
         marginBottom: 8,
+        ...stagger(0),
+        opacity: visible ? 0.4 : 0,
       }}>
         Your Result
       </p>
@@ -67,6 +73,7 @@ export default function ResultScreen({
         color: '#0D132D',
         textAlign: 'center',
         marginBottom: 4,
+        ...stagger(1),
       }}>
         {president.name}
       </h1>
@@ -74,8 +81,9 @@ export default function ResultScreen({
       <p style={{
         fontSize: 15,
         color: '#0D132D',
-        opacity: 0.5,
         marginBottom: 32,
+        ...stagger(2),
+        opacity: visible ? 0.5 : 0,
       }}>
         {president.years}
       </p>
@@ -89,6 +97,7 @@ export default function ResultScreen({
         border: '3px solid rgba(13, 19, 45, 0.15)',
         marginBottom: 32,
         backgroundColor: 'rgba(13, 19, 45, 0.04)',
+        ...stagger(3),
       }}>
         <img
           src={imageUrl}
@@ -109,11 +118,12 @@ export default function ResultScreen({
         fontStyle: 'italic',
         lineHeight: 1.5,
         color: '#0D132D',
-        opacity: 0.7,
         textAlign: 'center',
         maxWidth: 480,
         marginBottom: 40,
         padding: '0 20px',
+        ...stagger(4),
+        opacity: visible ? 0.7 : 0,
       }}>
         "{president.quote}"
       </blockquote>
@@ -124,6 +134,7 @@ export default function ResultScreen({
         height: 1,
         backgroundColor: 'rgba(13, 19, 45, 0.2)',
         marginBottom: 40,
+        ...stagger(5),
       }} />
 
       {/* Deep dive card */}
@@ -136,6 +147,7 @@ export default function ResultScreen({
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
+        ...stagger(6),
       }}>
         {/* Tags */}
         <div style={{
@@ -253,6 +265,7 @@ export default function ResultScreen({
         height: 1,
         backgroundColor: 'rgba(13, 19, 45, 0.2)',
         marginBottom: 40,
+        ...stagger(7),
       }} />
 
       {/* Share actions */}
@@ -260,6 +273,7 @@ export default function ResultScreen({
         display: 'flex',
         gap: 12,
         marginBottom: 16,
+        ...stagger(8),
       }}>
         <button
           onClick={handleCopyLink}
@@ -327,11 +341,12 @@ export default function ResultScreen({
           fontSize: 13,
           fontWeight: 500,
           color: '#0D132D',
-          opacity: 0.4,
           background: 'none',
           border: 'none',
           cursor: 'pointer',
           marginBottom: 40,
+          ...stagger(9),
+          opacity: visible ? 0.4 : 0,
         }}
         onMouseEnter={(e) => e.target.style.opacity = '0.7'}
         onMouseLeave={(e) => e.target.style.opacity = '0.4'}
