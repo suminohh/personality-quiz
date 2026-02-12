@@ -96,6 +96,30 @@ export default function ResultScreen({
         />
       </div>
 
+      {/* Quote */}
+      <blockquote style={{
+        fontFamily: "'Playfair Display', Georgia, serif",
+        fontSize: 18,
+        fontStyle: 'italic',
+        lineHeight: 1.5,
+        color: '#0D132D',
+        opacity: 0.7,
+        textAlign: 'center',
+        maxWidth: 480,
+        marginBottom: 40,
+        padding: '0 20px',
+      }}>
+        "{president.quote}"
+      </blockquote>
+
+      {/* Divider */}
+      <div style={{
+        width: 48,
+        height: 1,
+        backgroundColor: 'rgba(13, 19, 45, 0.2)',
+        marginBottom: 40,
+      }} />
+
       {/* Tags */}
       <div style={{
         display: 'flex',
@@ -122,22 +146,6 @@ export default function ResultScreen({
           </span>
         ))}
       </div>
-
-      {/* Quote */}
-      <blockquote style={{
-        fontFamily: "'Playfair Display', Georgia, serif",
-        fontSize: 18,
-        fontStyle: 'italic',
-        lineHeight: 1.5,
-        color: '#0D132D',
-        opacity: 0.7,
-        textAlign: 'center',
-        maxWidth: 480,
-        marginBottom: 32,
-        padding: '0 20px',
-      }}>
-        "{president.quote}"
-      </blockquote>
 
       {/* Description */}
       <p style={{
@@ -216,6 +224,14 @@ export default function ResultScreen({
           )
         })}
       </div>
+
+      {/* Divider */}
+      <div style={{
+        width: 48,
+        height: 1,
+        backgroundColor: 'rgba(13, 19, 45, 0.2)',
+        marginBottom: 40,
+      }} />
 
       {/* Share actions */}
       <div style={{
