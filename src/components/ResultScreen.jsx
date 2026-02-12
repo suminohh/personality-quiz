@@ -75,8 +75,8 @@ export default function ResultScreen({
 
       {/* Portrait */}
       <div style={{
-        width: 200,
-        height: 200,
+        width: 240,
+        height: 240,
         borderRadius: '50%',
         overflow: 'hidden',
         border: '3px solid rgba(13, 19, 45, 0.15)',
@@ -120,109 +120,125 @@ export default function ResultScreen({
         marginBottom: 40,
       }} />
 
-      {/* Tags */}
-      <div style={{
-        display: 'flex',
-        gap: 8,
-        marginBottom: 24,
-        flexWrap: 'wrap',
-        justifyContent: 'center',
-      }}>
-        {president.tags.map((tag) => (
-          <span
-            key={tag}
-            style={{
-              fontSize: 12,
-              fontWeight: 600,
-              letterSpacing: '0.06em',
-              textTransform: 'uppercase',
-              padding: '6px 14px',
-              backgroundColor: 'rgba(13, 19, 45, 0.08)',
-              borderRadius: 20,
-              color: '#0D132D',
-            }}
-          >
-            {tag}
-          </span>
-        ))}
-      </div>
-
-      {/* Description */}
-      <p style={{
-        fontSize: 16,
-        lineHeight: 1.7,
-        color: '#0D132D',
-        textAlign: 'center',
-        maxWidth: 520,
-        marginBottom: 40,
-      }}>
-        {president.description}
-      </p>
-
-      {/* Your Style */}
+      {/* Deep dive card */}
       <div style={{
         width: '100%',
-        padding: '24px',
+        padding: '28px 24px 32px',
         backgroundColor: 'rgba(13, 19, 45, 0.04)',
         borderRadius: 8,
         marginBottom: 40,
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
       }}>
-        <p style={{
-          fontSize: 12,
-          fontWeight: 600,
-          letterSpacing: '0.1em',
-          textTransform: 'uppercase',
-          color: '#0D132D',
-          opacity: 0.4,
-          marginBottom: 16,
+        {/* Tags */}
+        <div style={{
+          display: 'flex',
+          gap: 8,
+          marginBottom: 20,
+          flexWrap: 'wrap',
+          justifyContent: 'center',
         }}>
-          Your Personality Profile
+          {president.tags.map((tag) => (
+            <span
+              key={tag}
+              style={{
+                fontSize: 12,
+                fontWeight: 600,
+                letterSpacing: '0.06em',
+                textTransform: 'uppercase',
+                padding: '6px 14px',
+                backgroundColor: 'rgba(13, 19, 45, 0.08)',
+                borderRadius: 20,
+                color: '#0D132D',
+              }}
+            >
+              {tag}
+            </span>
+          ))}
+        </div>
+
+        {/* Description */}
+        <p style={{
+          fontSize: 16,
+          lineHeight: 1.7,
+          color: '#0D132D',
+          textAlign: 'center',
+          maxWidth: 520,
+          marginBottom: 28,
+        }}>
+          {president.description}
         </p>
 
-        {dimensions.map((dim, i) => {
-          const labels = dimensionLabels[dim]
-          const value = userVector[i]
-          const percentage = ((value - 1) / 3) * 100
+        {/* Divider within card */}
+        <div style={{
+          width: '100%',
+          height: 1,
+          backgroundColor: 'rgba(13, 19, 45, 0.1)',
+          marginBottom: 24,
+        }} />
 
-          return (
-            <div key={dim} style={{ marginBottom: i < dimensions.length - 1 ? 28 : 0 }}>
-              <div style={{
-                display: 'flex',
-                justifyContent: 'space-between',
-                marginBottom: 6,
-              }}>
-                <span style={{ fontSize: 12, opacity: 0.6 }}>{labels[0]}</span>
-                <span style={{
-                  fontSize: 12,
-                  fontWeight: 600,
-                  opacity: 0.8,
-                }}>
-                  {dim}
-                </span>
-                <span style={{ fontSize: 12, opacity: 0.6 }}>{labels[1]}</span>
-              </div>
-              <div style={{
-                width: '100%',
-                height: 6,
-                backgroundColor: 'rgba(13, 19, 45, 0.1)',
-                borderRadius: 3,
-                position: 'relative',
-              }}>
+        {/* Personality Profile */}
+        <div style={{ width: '100%' }}>
+          <p style={{
+            fontSize: 12,
+            fontWeight: 600,
+            letterSpacing: '0.1em',
+            textTransform: 'uppercase',
+            color: '#0D132D',
+            opacity: 0.4,
+            marginBottom: 20,
+            textAlign: 'center',
+          }}>
+            Your Personality Profile
+          </p>
+
+          {dimensions.map((dim, i) => {
+            const labels = dimensionLabels[dim]
+            const value = userVector[i]
+            const percentage = ((value - 1) / 3) * 100
+
+            return (
+              <div key={dim} style={{ marginBottom: i < dimensions.length - 1 ? 28 : 0 }}>
                 <div style={{
-                  position: 'absolute',
-                  left: `${percentage}%`,
-                  top: '50%',
-                  transform: 'translate(-50%, -50%)',
-                  width: 14,
-                  height: 14,
-                  backgroundColor: '#0D132D',
-                  borderRadius: '50%',
-                  border: '2px solid #F3F0D6',
-                }} />
+                  display: 'flex',
+                  justifyContent: 'space-between',
+                  marginBottom: 10,
+                }}>
+                  <span style={{ fontSize: 12, opacity: 0.6, flex: 1, textAlign: 'left' }}>{labels[0]}</span>
+                  <span style={{
+                    fontSize: 12,
+                    fontWeight: 600,
+                    opacity: 0.8,
+                    textAlign: 'center',
+                  }}>
+                    {dim}
+                  </span>
+                  <span style={{ fontSize: 12, opacity: 0.6, flex: 1, textAlign: 'right' }}>{labels[1]}</span>
+                </div>
+                <div style={{
+                  width: '100%',
+                  height: 6,
+                  backgroundColor: 'rgba(13, 19, 45, 0.1)',
+                  borderRadius: 3,
+                  position: 'relative',
+                }}>
+                  <div style={{
+                    position: 'absolute',
+                    left: `${percentage}%`,
+                    top: '50%',
+                    transform: 'translate(-50%, -50%)',
+                    width: 14,
+                    height: 14,
+                    backgroundColor: '#0D132D',
+                    borderRadius: '50%',
+                    border: '2px solid #F3F0D6',
+                  }} />
+                </div>
               </div>
-            </div>
-          )
-        })}
+            )
+          })}
+        </div>
       </div>
 
       {/* Divider */}
