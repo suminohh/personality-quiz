@@ -6,6 +6,7 @@ export default function IntroScreen({ onStart }) {
       alignItems: 'center',
       justifyContent: 'center',
       minHeight: '80vh',
+      paddingBottom: '15vh',
       textAlign: 'center',
     }}>
 
@@ -83,6 +84,7 @@ export default function IntroScreen({ onStart }) {
           bottom: -80,
           left: 0,
           width: '100vw',
+          minWidth: 600,
           opacity: 0.08,
           pointerEvents: 'none',
         }}
