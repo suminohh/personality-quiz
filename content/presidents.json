@@ -4,7 +4,7 @@
     {
       "id": "washington",
       "name": "George Washington",
-      "years": "1789–1797",
+      "years": "1789 – 1797",
       "scores": [2, 2, 2, 1, 2],
       "style": "Consensus-Driven \u2022 Measured \u2022 Private \u2022 Conviction-Based \u2022 Measured",
       "tags": ["Principled", "Anchor", "Unifying"],
@@ -14,7 +14,7 @@
     {
       "id": "jefferson",
       "name": "Thomas Jefferson",
-      "years": "1801–1809",
+      "years": "1801 – 1809",
       "scores": [2, 3, 1, 1, 2],
       "style": "Consensus-Driven \u2022 Bold \u2022 Private \u2022 Conviction-Based \u2022 Measured",
       "tags": ["Intellectual", "Visionary", "Private"],
@@ -24,7 +24,7 @@
     {
       "id": "lincoln",
       "name": "Abraham Lincoln",
-      "years": "1861–1865",
+      "years": "1861 – 1865",
       "scores": [2, 3, 2, 1, 2],
       "style": "Consensus-Driven \u2022 Bold \u2022 Private \u2022 Conviction-Based \u2022 Measured",
       "tags": ["Empathetic", "Resolute", "Strategic"],
@@ -34,7 +34,7 @@
     {
       "id": "t-roosevelt",
       "name": "Theodore Roosevelt",
-      "years": "1901–1909",
+      "years": "1901 – 1909",
       "scores": [4, 4, 4, 3, 4],
       "style": "Directive \u2022 Bold \u2022 Public \u2022 Outcome-Driven \u2022 Unfiltered",
       "tags": ["Fearless", "Dynamic", "Direct"],
@@ -44,7 +44,7 @@
     {
       "id": "fdr",
       "name": "Franklin D. Roosevelt",
-      "years": "1933–1945",
+      "years": "1933 – 1945",
       "scores": [2, 4, 4, 4, 2],
       "style": "Consensus-Driven \u2022 Bold \u2022 Public \u2022 Outcome-Based \u2022 Measured",
       "tags": ["Charismatic", "Innovator", "Bold"],
@@ -54,7 +54,7 @@
     {
       "id": "reagan",
       "name": "Ronald Reagan",
-      "years": "1981–1989",
+      "years": "1981 – 1989",
       "scores": [3, 3, 4, 3, 2],
       "style": "Directive \u2022 Bold \u2022 Public \u2022 Outcome-Driven \u2022 Measured",
       "tags": ["Optimistic", "Persuasive", "Clear"],
@@ -64,7 +64,7 @@
     {
       "id": "clinton",
       "name": "Bill Clinton",
-      "years": "1993–2001",
+      "years": "1993 – 2001",
       "scores": [2, 2, 4, 4, 2],
       "style": "Consensus-Driven \u2022 Measured \u2022 Public \u2022 Outcome-Based \u2022 Measured",
       "tags": ["Empathetic", "Pragmatic", "Engaging"],
@@ -74,7 +74,7 @@
     {
       "id": "bush",
       "name": "George W. Bush",
-      "years": "2001–2009",
+      "years": "2001 – 2009",
       "scores": [3, 4, 3, 2, 3],
       "style": "Directive \u2022 Bold \u2022 Public \u2022 Conviction-Based \u2022 Direct",
       "tags": ["Decisive", "Authentic", "Loyal"],
@@ -84,7 +84,7 @@
     {
       "id": "obama",
       "name": "Barack Obama",
-      "years": "2009–2017",
+      "years": "2009 – 2017",
       "scores": [2, 2, 3, 2, 1],
       "style": "Consensus-Driven \u2022 Measured \u2022 Public \u2022 Conviction-Based \u2022 Measured",
       "tags": ["Strategic", "Analytical", "Composed"],
@@ -94,7 +94,7 @@
     {
       "id": "trump",
       "name": "Donald Trump",
-      "years": "2017–2021; inaugurated again Jan 20, 2025",
+      "years": "2017 – 2021; inaugurated again Jan 20, 2025",
       "scores": [4, 4, 4, 4, 4],
       "style": "Directive \u2022 Bold \u2022 Public \u2022 Outcome-Based \u2022 Unfiltered",
       "tags": ["Bold", "Unfiltered", "Disruptive"],
