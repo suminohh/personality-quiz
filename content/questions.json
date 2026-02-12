@@ -177,7 +177,7 @@
         { "text": "Do what works and revisit values later", "score": 4 },
         { "text": "Never compromise on core beliefs", "score": 2 }
       ],
-      "factImage": { "src": "/images/facts/crown.png", "right": -30, "top": "52%", "width": "38%" },
+      "factImage": { "src": "/images/facts/crown.png", "right": -30, "top": "52%", "width": "57%" },
       "fact": "Donald Trump received a star on the Hollywood Walk of Fame in 2007 for his work as producer of the Miss Universe pageants and \"The Apprentice.\"",
       "factSources": [
         { "name": "Hollywood Walk of Fame", "url": "https://walkoffame.com/donald-trump/" },
@@ -194,6 +194,7 @@
         { "text": "Some rules are important, others are suggestions", "score": 3 },
         { "text": "Consistency and fairness matter more than convenience", "score": 2 }
       ],
+      "factImage": { "src": "/images/facts/foxhound.png", "right": -20, "top": "100%", "width": "40%" },
       "fact": "George Washington was an avid breeder who created the American Foxhound by crossing French hounds with English foxhounds.",
       "factSources": [
         { "name": "American Kennel Club", "url": "https://www.akc.org/expert-advice/dog-breeds/by-george-washington-american-foxhounds/" },
@@ -210,6 +211,7 @@
         { "text": "Completely pivot if a better opportunity appears", "score": 4 },
         { "text": "Stay true to your vision even if the path is harder", "score": 2 }
       ],
+      "factImage": { "src": "/images/facts/obelisk.png", "right": -120, "top": "220%", "width": "70%" },
       "fact": "Thomas Jefferson designed his own tombstone and wrote his own epitaph — notably leaving out that he had been President of the United States.",
       "factSources": [
         { "name": "Library of Congress", "url": "https://www.loc.gov/exhibits/jefferson/jeffleg.html" },
@@ -226,6 +228,7 @@
         { "text": "Tell them straight up it won't work", "score": 4 },
         { "text": "Ask questions to help them realize the issues themselves", "score": 1 }
       ],
+      "factImage": { "src": "/images/facts/shaker.png", "right": -30, "top": "100%", "width": "45%" },
       "fact": "Abraham Lincoln was a licensed bartender and co-owned a tavern called \"Berry and Lincoln\" in New Salem, Illinois before entering politics.",
       "factSources": [
         { "name": "Grunge", "url": "https://www.grunge.com/228499/abraham-lincoln-co-founded-a-bar-heres-what-we-know-about-it/" },
@@ -242,6 +245,7 @@
         { "text": "Be upfront about why you think they're wrong", "score": 3 },
         { "text": "State your position boldly and let the strength of the argument speak", "score": 4 }
       ],
+      "factImage": { "src": "/images/facts/book.png", "right": -100, "top": "0%", "width": "55%" },
       "fact": "Theodore Roosevelt read at least one book every single day — often finishing two or three — and could speed-read entire pages at a glance.",
       "factSources": [
         { "name": "Roosevelt Center", "url": "https://www.theodorerooseveltcenter.org/digital-library/o308442/" },
@@ -258,6 +262,7 @@
         { "text": "Correct them plainly — \"that's not what I meant, here's what I said\"", "score": 3 },
         { "text": "Double down — if they took it wrong, that's on them", "score": 4 }
       ],
+      "factImage": { "src": "/images/facts/platform.png", "right": -80, "top": "-55%", "width": "65%" },
       "fact": "Franklin D. Roosevelt used a secret train platform beneath the Waldorf Astoria hotel in New York to enter and exit without being seen in his wheelchair.",
       "factSources": [
         { "name": "Atlas Obscura", "url": "https://www.atlasobscura.com/places/track-61" },
