@@ -74,6 +74,19 @@ export default function IntroScreen({ onStart }) {
       }}>
         Takes about 3 minutes
       </p>
+
+      <img
+        src="/images/rushmore.png"
+        alt=""
+        style={{
+          position: 'fixed',
+          bottom: -80,
+          left: 0,
+          width: '100vw',
+          opacity: 0.08,
+          pointerEvents: 'none',
+        }}
+      />
     </div>
   )
 }
