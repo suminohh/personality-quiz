@@ -126,6 +126,7 @@
         { "text": "Have a few deep conversations with interesting people", "score": 2 },
         { "text": "Become the life of the party with stories and jokes", "score": 3 }
       ],
+      "factImage": { "src": "/images/facts/sax.png", "right": -10, "top": "50%", "width": "40%" },
       "fact": "Bill Clinton is an accomplished saxophone player who won first chair in Arkansas's All-State Band and seriously considered pursuing a career in music before entering politics.",
       "factSources": [
         { "name": "Classic FM", "url": "https://www.classicfm.com/discover-music/instruments/saxophone/bill-clinton-saxophone/" },
@@ -142,6 +143,7 @@
         { "text": "Doing a solo activity like reading or hiking", "score": 2 },
         { "text": "Hosting people or attending social events", "score": 3 }
       ],
+      "factImage": { "src": "/images/facts/rangers.png", "right": 5, "top": "48%", "width": "38%" },
       "fact": "George W. Bush was a part-owner of the Texas Rangers baseball team from 1989 to 1998, serving as managing general partner and often sitting in the stands as a regular fan.",
       "factSources": [
         { "name": "ESPN", "url": "https://www.espn.com/mlb/bush/index.html" },
